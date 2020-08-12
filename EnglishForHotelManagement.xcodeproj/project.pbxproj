@@ -13,6 +13,11 @@
 		59279EBD24E491D000BB70EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59279EBB24E491D000BB70EA /* Main.storyboard */; };
 		59279EBF24E491D400BB70EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59279EBE24E491D400BB70EA /* Assets.xcassets */; };
 		59279EC224E491D400BB70EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59279EC024E491D400BB70EA /* LaunchScreen.storyboard */; };
+		59279ECB24E495FE00BB70EA /* EFHMXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ECA24E495FE00BB70EA /* EFHMXibView.swift */; };
+		59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ECC24E4962900BB70EA /* NSObject+Extension.swift */; };
+		59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ECF24E4969700BB70EA /* EFHMPageViewController.swift */; };
+		59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ED124E496F500BB70EA /* EFHMHomePageController.swift */; };
+		59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		59279EBE24E491D400BB70EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59279EC124E491D400BB70EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59279EC324E491D400BB70EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59279ECA24E495FE00BB70EA /* EFHMXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMXibView.swift; sourceTree = "<group>"; };
+		59279ECC24E4962900BB70EA /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		59279ECF24E4969700BB70EA /* EFHMPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMPageViewController.swift; sourceTree = "<group>"; };
+		59279ED124E496F500BB70EA /* EFHMHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMHomePageController.swift; sourceTree = "<group>"; };
+		59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMIndexPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		59279EB424E491D000BB70EA /* EnglishForHotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				59279ECE24E4967000BB70EA /* Slider */,
+				59279EC924E495BD00BB70EA /* Extension */,
 				59279EB524E491D000BB70EA /* AppDelegate.swift */,
 				59279EB724E491D000BB70EA /* SceneDelegate.swift */,
 				59279EB924E491D000BB70EA /* ViewController.swift */,
@@ -65,6 +77,25 @@
 				59279EC324E491D400BB70EA /* Info.plist */,
 			);
 			path = EnglishForHotelManagement;
+			sourceTree = "<group>";
+		};
+		59279EC924E495BD00BB70EA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59279ECA24E495FE00BB70EA /* EFHMXibView.swift */,
+				59279ECC24E4962900BB70EA /* NSObject+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		59279ECE24E4967000BB70EA /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				59279ECF24E4969700BB70EA /* EFHMPageViewController.swift */,
+				59279ED124E496F500BB70EA /* EFHMHomePageController.swift */,
+				59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +124,7 @@
 		59279EAA24E491D000BB70EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EFHM;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Opu Sumon";
@@ -138,8 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */,
+				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
+				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
+				59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */,
 				59279EBA24E491D000BB70EA /* ViewController.swift in Sources */,
 				59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */,
+				59279ECB24E495FE00BB70EA /* EFHMXibView.swift in Sources */,
 				59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

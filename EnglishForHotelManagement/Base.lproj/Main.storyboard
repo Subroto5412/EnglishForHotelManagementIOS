@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gJe-al-0ap">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home Page Controller-->
+        <scene sceneID="RS3-KQ-zfM">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="EFHMHomePageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gJe-al-0ap" customClass="EFHMHomePageController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cAV-ZS-SoZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-O6-QY9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="647"/>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="boa-ck-DBM">
+                                <rect key="frame" x="187.5" y="699" width="39" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="HEz-1X-dwn"/>
+                                    <constraint firstAttribute="width" constant="39" id="dcd-QM-AP7"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.78823529411764703" green="0.84313725490196079" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WE-xP-nc1">
+                                <rect key="frame" x="32" y="761" width="350" height="55"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.51372549019607838" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8WE-xP-nc1" firstAttribute="height" secondItem="cAV-ZS-SoZ" secondAttribute="height" multiplier="45:734" id="1f2-jy-FF9"/>
+                            <constraint firstItem="ZIE-hH-vCb" firstAttribute="trailing" secondItem="dpP-O6-QY9" secondAttribute="trailing" id="9Ya-cQ-6QO"/>
+                            <constraint firstItem="8WE-xP-nc1" firstAttribute="width" secondItem="cAV-ZS-SoZ" secondAttribute="width" multiplier="317:375" id="BcJ-sE-zci"/>
+                            <constraint firstItem="dpP-O6-QY9" firstAttribute="top" secondItem="ZIE-hH-vCb" secondAttribute="top" id="Bk9-f8-bi7"/>
+                            <constraint firstItem="boa-ck-DBM" firstAttribute="centerX" secondItem="ZIE-hH-vCb" secondAttribute="centerX" id="I9R-wX-VLM"/>
+                            <constraint firstItem="dpP-O6-QY9" firstAttribute="leading" secondItem="ZIE-hH-vCb" secondAttribute="leading" id="K3e-fY-eRO"/>
+                            <constraint firstItem="8WE-xP-nc1" firstAttribute="centerX" secondItem="ZIE-hH-vCb" secondAttribute="centerX" id="NTg-Wl-pkP"/>
+                            <constraint firstItem="boa-ck-DBM" firstAttribute="top" secondItem="dpP-O6-QY9" secondAttribute="bottom" constant="8" symbolic="YES" id="Rrf-du-jgr"/>
+                            <constraint firstItem="8WE-xP-nc1" firstAttribute="top" secondItem="boa-ck-DBM" secondAttribute="bottom" constant="25" id="Waw-x3-XtH"/>
+                            <constraint firstItem="dpP-O6-QY9" firstAttribute="height" secondItem="cAV-ZS-SoZ" secondAttribute="height" multiplier="530:734" id="dhO-dw-g9V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZIE-hH-vCb"/>
                     </view>
+                    <connections>
+                        <outlet property="container" destination="dpP-O6-QY9" id="ck8-VH-jd9"/>
+                        <outlet property="continueBtnView" destination="8WE-xP-nc1" id="GUh-y0-foJ"/>
+                        <outlet property="pageControl" destination="boa-ck-DBM" id="5Pv-7e-srS"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUE-iR-CwN" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="664" y="132"/>
+        </scene>
+        <!--Index Page Controller-->
+        <scene sceneID="19M-jK-VoD">
+            <objects>
+                <viewController storyboardIdentifier="EFHMIndexPageController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5sI-Dg-Q4o" customClass="EFHMIndexPageController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jrh-TE-Ef9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-08-EIz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slider1" translatesAutoresizingMaskIntoConstraints="NO" id="Riz-B4-cnL">
+                                        <rect key="frame" x="50" y="120" width="314" height="347"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngA-HM-dRO">
+                                        <rect key="frame" x="157" y="566" width="100" height="27"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                        <color key="textColor" red="1" green="0.47843137254901957" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNL-hY-D6Y">
+                                        <rect key="frame" x="190" y="604" width="34.5" height="16"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                        <color key="textColor" red="0.58431372549019611" green="0.64313725490196072" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ngA-HM-dRO" firstAttribute="centerX" secondItem="bNf-08-EIz" secondAttribute="centerX" id="1ob-IB-i0J"/>
+                                    <constraint firstItem="BNL-hY-D6Y" firstAttribute="top" secondItem="ngA-HM-dRO" secondAttribute="bottom" constant="11" id="2lV-WW-z7Q"/>
+                                    <constraint firstItem="ngA-HM-dRO" firstAttribute="top" secondItem="Riz-B4-cnL" secondAttribute="bottom" constant="99" id="R5w-pI-ijA"/>
+                                    <constraint firstItem="Riz-B4-cnL" firstAttribute="centerX" secondItem="bNf-08-EIz" secondAttribute="centerX" id="adJ-2I-bZv"/>
+                                    <constraint firstItem="BNL-hY-D6Y" firstAttribute="centerX" secondItem="bNf-08-EIz" secondAttribute="centerX" id="gab-8Q-7Vl"/>
+                                    <constraint firstItem="Riz-B4-cnL" firstAttribute="top" secondItem="bNf-08-EIz" secondAttribute="top" constant="120" id="wXY-jy-plh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="bNf-08-EIz" firstAttribute="height" secondItem="Jrh-TE-Ef9" secondAttribute="height" id="345-ga-eUl"/>
+                            <constraint firstItem="Riz-B4-cnL" firstAttribute="width" secondItem="Jrh-TE-Ef9" secondAttribute="width" multiplier="284.3:375" id="Ekl-xW-jls"/>
+                            <constraint firstItem="bNf-08-EIz" firstAttribute="top" secondItem="S8p-Rp-1lC" secondAttribute="top" id="KMf-t9-phx"/>
+                            <constraint firstItem="bNf-08-EIz" firstAttribute="leading" secondItem="S8p-Rp-1lC" secondAttribute="leading" id="PST-h4-ZLx"/>
+                            <constraint firstItem="S8p-Rp-1lC" firstAttribute="trailing" secondItem="bNf-08-EIz" secondAttribute="trailing" id="Ueg-7W-JOM"/>
+                            <constraint firstItem="Riz-B4-cnL" firstAttribute="height" secondItem="Jrh-TE-Ef9" secondAttribute="height" multiplier="284.3:734" id="pfE-ao-4gf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S8p-Rp-1lC"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="displayImageView" destination="Riz-B4-cnL" id="mYl-XE-1PO"/>
+                        <outlet property="subTitleText" destination="BNL-hY-D6Y" id="S5b-w4-GYQ"/>
+                        <outlet property="titleText" destination="ngA-HM-dRO" id="tAX-UY-Up2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71B-35-TwC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="132"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="slider1" width="532" height="531"/>
+    </resources>
 </document>
