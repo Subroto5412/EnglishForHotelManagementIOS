@@ -18,6 +18,9 @@
 		59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ECF24E4969700BB70EA /* EFHMPageViewController.swift */; };
 		59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ED124E496F500BB70EA /* EFHMHomePageController.swift */; };
 		59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */; };
+		59897C4225010BD8007DA16C /* EFHMProgressBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */; };
+		59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */; };
+		59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4125010BD8007DA16C /* EFHMProgressBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		59279ECF24E4969700BB70EA /* EFHMPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMPageViewController.swift; sourceTree = "<group>"; };
 		59279ED124E496F500BB70EA /* EFHMHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMHomePageController.swift; sourceTree = "<group>"; };
 		59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMIndexPageController.swift; sourceTree = "<group>"; };
+		59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMProgressBody.xib; sourceTree = "<group>"; };
+		59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMHomeViewController.swift; sourceTree = "<group>"; };
+		59897C4125010BD8007DA16C /* EFHMProgressBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMProgressBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		59279EB424E491D000BB70EA /* EnglishForHotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				59897C3C25010A60007DA16C /* Home */,
 				59279ECE24E4967000BB70EA /* Slider */,
 				59279EC924E495BD00BB70EA /* Extension */,
 				59279EB524E491D000BB70EA /* AppDelegate.swift */,
@@ -96,6 +103,16 @@
 				59279ED324E4972D00BB70EA /* EFHMIndexPageController.swift */,
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		59897C3C25010A60007DA16C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */,
+				59897C4125010BD8007DA16C /* EFHMProgressBody.swift */,
+				59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59279EC224E491D400BB70EA /* LaunchScreen.storyboard in Resources */,
+				59897C4225010BD8007DA16C /* EFHMProgressBody.xib in Resources */,
 				59279EBF24E491D400BB70EA /* Assets.xcassets in Resources */,
 				59279EBD24E491D000BB70EA /* Main.storyboard in Resources */,
 			);
@@ -171,11 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */,
+				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
 				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
 				59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */,
 				59279EBA24E491D000BB70EA /* ViewController.swift in Sources */,
 				59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */,
+				59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */,
 				59279ECB24E495FE00BB70EA /* EFHMXibView.swift in Sources */,
 				59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */,
 			);

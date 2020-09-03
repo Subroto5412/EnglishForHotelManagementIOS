@@ -69,11 +69,11 @@ class EFHMHomePageController: UIViewController {
             //   self.removeControllerFromParent()
         }
         
-//        @IBAction func btnNext(_ sender: UIButton) {
-//            let controller = EFHMHomeController.initWithStoryboard()
-//           self.present(controller, animated: true, completion: nil);
-//
-//        }
+        @IBAction func btnNext(_ sender: UIButton) {
+            let controller = EFHMHomeViewController.initWithStoryboard()
+           self.present(controller, animated: true, completion: nil);
+
+        }
         
     }
 
