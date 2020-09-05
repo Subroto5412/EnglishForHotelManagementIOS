@@ -21,6 +21,15 @@
 		59897C4225010BD8007DA16C /* EFHMProgressBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */; };
 		59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */; };
 		59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4125010BD8007DA16C /* EFHMProgressBody.swift */; };
+		59C464F62503695C008EAE66 /* EFHMTopBarForQuiz.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C464F02503695B008EAE66 /* EFHMTopBarForQuiz.xib */; };
+		59C464F72503695C008EAE66 /* EFHMTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464F12503695C008EAE66 /* EFHMTopBar.swift */; };
+		59C464F82503695C008EAE66 /* EFHMTopBarForQuiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464F22503695C008EAE66 /* EFHMTopBarForQuiz2.swift */; };
+		59C464F92503695C008EAE66 /* EFHMTopBarForQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464F32503695C008EAE66 /* EFHMTopBarForQuiz.swift */; };
+		59C464FA2503695C008EAE66 /* EFHMTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C464F42503695C008EAE66 /* EFHMTopBar.xib */; };
+		59C464FB2503695C008EAE66 /* EFHMTopBarForQuiz2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C464F52503695C008EAE66 /* EFHMTopBarForQuiz2.xib */; };
+		59C464FF25036C59008EAE66 /* EFHMVocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464FC25036C59008EAE66 /* EFHMVocabularyViewController.swift */; };
+		59C4650025036C59008EAE66 /* EFHMVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464FD25036C59008EAE66 /* EFHMVocabulary.swift */; };
+		59C4650125036C59008EAE66 /* EFHMVocabulary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C464FE25036C59008EAE66 /* EFHMVocabulary.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,15 @@
 		59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMProgressBody.xib; sourceTree = "<group>"; };
 		59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMHomeViewController.swift; sourceTree = "<group>"; };
 		59897C4125010BD8007DA16C /* EFHMProgressBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMProgressBody.swift; sourceTree = "<group>"; };
+		59C464F02503695B008EAE66 /* EFHMTopBarForQuiz.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMTopBarForQuiz.xib; sourceTree = "<group>"; };
+		59C464F12503695C008EAE66 /* EFHMTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMTopBar.swift; sourceTree = "<group>"; };
+		59C464F22503695C008EAE66 /* EFHMTopBarForQuiz2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMTopBarForQuiz2.swift; sourceTree = "<group>"; };
+		59C464F32503695C008EAE66 /* EFHMTopBarForQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMTopBarForQuiz.swift; sourceTree = "<group>"; };
+		59C464F42503695C008EAE66 /* EFHMTopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMTopBar.xib; sourceTree = "<group>"; };
+		59C464F52503695C008EAE66 /* EFHMTopBarForQuiz2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMTopBarForQuiz2.xib; sourceTree = "<group>"; };
+		59C464FC25036C59008EAE66 /* EFHMVocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyViewController.swift; sourceTree = "<group>"; };
+		59C464FD25036C59008EAE66 /* EFHMVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabulary.swift; sourceTree = "<group>"; };
+		59C464FE25036C59008EAE66 /* EFHMVocabulary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMVocabulary.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,8 @@
 		59279EB424E491D000BB70EA /* EnglishForHotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				59C464EF2503695B008EAE66 /* TopBar */,
+				59C464EE25036924008EAE66 /* Vocabulary */,
 				59897C3C25010A60007DA16C /* Home */,
 				59279ECE24E4967000BB70EA /* Slider */,
 				59279EC924E495BD00BB70EA /* Extension */,
@@ -113,6 +133,29 @@
 				59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		59C464EE25036924008EAE66 /* Vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				59C464FD25036C59008EAE66 /* EFHMVocabulary.swift */,
+				59C464FE25036C59008EAE66 /* EFHMVocabulary.xib */,
+				59C464FC25036C59008EAE66 /* EFHMVocabularyViewController.swift */,
+			);
+			path = Vocabulary;
+			sourceTree = "<group>";
+		};
+		59C464EF2503695B008EAE66 /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				59C464F02503695B008EAE66 /* EFHMTopBarForQuiz.xib */,
+				59C464F12503695C008EAE66 /* EFHMTopBar.swift */,
+				59C464F22503695C008EAE66 /* EFHMTopBarForQuiz2.swift */,
+				59C464F32503695C008EAE66 /* EFHMTopBarForQuiz.swift */,
+				59C464F42503695C008EAE66 /* EFHMTopBar.xib */,
+				59C464F52503695C008EAE66 /* EFHMTopBarForQuiz2.xib */,
+			);
+			path = TopBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +217,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C4650125036C59008EAE66 /* EFHMVocabulary.xib in Resources */,
+				59C464F62503695C008EAE66 /* EFHMTopBarForQuiz.xib in Resources */,
 				59279EC224E491D400BB70EA /* LaunchScreen.storyboard in Resources */,
 				59897C4225010BD8007DA16C /* EFHMProgressBody.xib in Resources */,
 				59279EBF24E491D400BB70EA /* Assets.xcassets in Resources */,
+				59C464FB2503695C008EAE66 /* EFHMTopBarForQuiz2.xib in Resources */,
+				59C464FA2503695C008EAE66 /* EFHMTopBar.xib in Resources */,
 				59279EBD24E491D000BB70EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,11 +240,16 @@
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
 				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
 				59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */,
+				59C464F92503695C008EAE66 /* EFHMTopBarForQuiz.swift in Sources */,
 				59279EBA24E491D000BB70EA /* ViewController.swift in Sources */,
+				59C464F82503695C008EAE66 /* EFHMTopBarForQuiz2.swift in Sources */,
 				59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */,
+				59C4650025036C59008EAE66 /* EFHMVocabulary.swift in Sources */,
 				59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */,
 				59279ECB24E495FE00BB70EA /* EFHMXibView.swift in Sources */,
 				59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */,
+				59C464F72503695C008EAE66 /* EFHMTopBar.swift in Sources */,
+				59C464FF25036C59008EAE66 /* EFHMVocabularyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

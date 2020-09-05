@@ -72,8 +72,8 @@ class EFHMHomeViewController: UIViewController {
     }
 
     func showVocabularyController() {
-//           let controller = EFHMVocabularyViewController.initWithStoryboard()
-//           self.present(controller, animated: true, completion: nil);
+           let controller = EFHMVocabularyViewController.initWithStoryboard()
+           self.present(controller, animated: true, completion: nil);
     }
     
     func showSentenceController() {

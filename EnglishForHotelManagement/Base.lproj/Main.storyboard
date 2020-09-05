@@ -238,6 +238,45 @@
             </objects>
             <point key="canvasLocation" x="606" y="783"/>
         </scene>
+        <!--Vocabulary View Controller-->
+        <scene sceneID="C8N-Pj-4cl">
+            <objects>
+                <viewController storyboardIdentifier="EFHMVocabularyViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZWy-Us-s9b" customClass="EFHMVocabularyViewController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P8x-ol-kWb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5uC-xf-gnf" customClass="EFHMTopBar" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="156"/>
+                                <color key="backgroundColor" red="1" green="0.74901960779999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78I-No-lzl" customClass="EFHMVocabulary" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="212" width="414" height="650"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56862745098039214" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5uC-xf-gnf" firstAttribute="leading" secondItem="JAy-qG-cyb" secondAttribute="leading" id="1Y1-B5-GaQ"/>
+                            <constraint firstItem="JAy-qG-cyb" firstAttribute="trailing" secondItem="78I-No-lzl" secondAttribute="trailing" id="7AA-Ne-EPy"/>
+                            <constraint firstItem="78I-No-lzl" firstAttribute="leading" secondItem="JAy-qG-cyb" secondAttribute="leading" id="A1N-ke-6Ir"/>
+                            <constraint firstItem="5uC-xf-gnf" firstAttribute="top" secondItem="JAy-qG-cyb" secondAttribute="top" id="C3n-4d-5b4"/>
+                            <constraint firstItem="5uC-xf-gnf" firstAttribute="height" secondItem="P8x-ol-kWb" secondAttribute="height" multiplier="145:812" constant="-4" id="VRv-Xg-Hqw"/>
+                            <constraint firstItem="JAy-qG-cyb" firstAttribute="bottom" secondItem="78I-No-lzl" secondAttribute="bottom" id="hQ2-KJ-52r"/>
+                            <constraint firstItem="JAy-qG-cyb" firstAttribute="trailing" secondItem="5uC-xf-gnf" secondAttribute="trailing" id="q3D-fU-t3f"/>
+                            <constraint firstItem="78I-No-lzl" firstAttribute="top" secondItem="5uC-xf-gnf" secondAttribute="bottom" constant="12" id="rft-9O-kUT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JAy-qG-cyb"/>
+                    </view>
+                    <connections>
+                        <outlet property="bodyContainer" destination="78I-No-lzl" id="6j9-RC-0kX"/>
+                        <outlet property="topBar" destination="5uC-xf-gnf" id="36O-RV-t30"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyu-Q7-8tm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1372" y="783"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bitmap" width="68" height="68"/>
