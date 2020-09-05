@@ -97,8 +97,8 @@ class EFHMVocabularyViewController: UIViewController {
     }
     
     func showFoodsController() {
-//          let controller = EFHMFoodsViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+          let controller = EFHMVocabularyFoodsController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
 }
 
