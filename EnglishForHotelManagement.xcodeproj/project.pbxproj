@@ -30,6 +30,9 @@
 		59C464FF25036C59008EAE66 /* EFHMVocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464FC25036C59008EAE66 /* EFHMVocabularyViewController.swift */; };
 		59C4650025036C59008EAE66 /* EFHMVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C464FD25036C59008EAE66 /* EFHMVocabulary.swift */; };
 		59C4650125036C59008EAE66 /* EFHMVocabulary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C464FE25036C59008EAE66 /* EFHMVocabulary.xib */; };
+		59C465072503738B008EAE66 /* EFHMSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C465032503738B008EAE66 /* EFHMSentence.swift */; };
+		59C465092503738B008EAE66 /* EFHMSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */; };
+		59C4650A2503738B008EAE66 /* EFHMSentence.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C465062503738B008EAE66 /* EFHMSentence.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		59C464FC25036C59008EAE66 /* EFHMVocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyViewController.swift; sourceTree = "<group>"; };
 		59C464FD25036C59008EAE66 /* EFHMVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabulary.swift; sourceTree = "<group>"; };
 		59C464FE25036C59008EAE66 /* EFHMVocabulary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMVocabulary.xib; sourceTree = "<group>"; };
+		59C465032503738B008EAE66 /* EFHMSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMSentence.swift; sourceTree = "<group>"; };
+		59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMSentenceViewController.swift; sourceTree = "<group>"; };
+		59C465062503738B008EAE66 /* EFHMSentence.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMSentence.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		59279EB424E491D000BB70EA /* EnglishForHotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				59C4650225037340008EAE66 /* Sentence */,
 				59C464EF2503695B008EAE66 /* TopBar */,
 				59C464EE25036924008EAE66 /* Vocabulary */,
 				59897C3C25010A60007DA16C /* Home */,
@@ -158,6 +165,16 @@
 			path = TopBar;
 			sourceTree = "<group>";
 		};
+		59C4650225037340008EAE66 /* Sentence */ = {
+			isa = PBXGroup;
+			children = (
+				59C465032503738B008EAE66 /* EFHMSentence.swift */,
+				59C465062503738B008EAE66 /* EFHMSentence.xib */,
+				59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */,
+			);
+			path = Sentence;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C4650A2503738B008EAE66 /* EFHMSentence.xib in Resources */,
 				59C4650125036C59008EAE66 /* EFHMVocabulary.xib in Resources */,
 				59C464F62503695C008EAE66 /* EFHMTopBarForQuiz.xib in Resources */,
 				59279EC224E491D400BB70EA /* LaunchScreen.storyboard in Resources */,
@@ -235,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C465092503738B008EAE66 /* EFHMSentenceViewController.swift in Sources */,
 				59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */,
 				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
@@ -250,6 +269,7 @@
 				59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */,
 				59C464F72503695C008EAE66 /* EFHMTopBar.swift in Sources */,
 				59C464FF25036C59008EAE66 /* EFHMVocabularyViewController.swift in Sources */,
+				59C465072503738B008EAE66 /* EFHMSentence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

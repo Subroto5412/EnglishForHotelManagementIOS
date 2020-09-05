@@ -66,19 +66,14 @@ class EFHMHomeViewController: UIViewController {
     }
     
 
-    func showProfileController() {
-//        let controller = EFHMProfileViewController.initWithStoryboard()
-//         self.present(controller, animated: true, completion: nil);
-    }
-
     func showVocabularyController() {
            let controller = EFHMVocabularyViewController.initWithStoryboard()
            self.present(controller, animated: true, completion: nil);
     }
     
     func showSentenceController() {
-//           let controller = EFHMSentenceViewController.initWithStoryboard()
-//           self.present(controller, animated: true, completion: nil);
+        let controller = EFHMSentenceViewController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
     }
     
     func showConversationController() {
