@@ -2,7 +2,7 @@
 //  EFHMConversationViewController.swift
 //  EnglishForConstruction
 //
-//  Created by Subroto Mohonto on 31/5/20.
+//  Created by Subroto Mohonto on 5/9/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
 //
 
@@ -26,7 +26,7 @@ class EFHMConversationViewController: UIViewController {
             topBar.titleNameLbl.text = "Conversation"
             self.initializeTopBar()
 
-            self.bodyContainer.howToWorkHandler = {
+            self.bodyContainer.geetingsHandler = {
                        [weak self] (isShow) in
                        guard let weakSelf = self else {
                        return
@@ -34,7 +34,7 @@ class EFHMConversationViewController: UIViewController {
                    weakSelf.showHowToWorkController()
                }
             
-            self.bodyContainer.instructionHandler = {
+            self.bodyContainer.receptionHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
@@ -42,7 +42,7 @@ class EFHMConversationViewController: UIViewController {
                         weakSelf.showInstructionController()
                     }
             
-            self.bodyContainer.productHandler = {
+            self.bodyContainer.serviceHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
@@ -50,7 +50,7 @@ class EFHMConversationViewController: UIViewController {
                         weakSelf.showProductController()
                     }
             
-            self.bodyContainer.workHandler = {
+            self.bodyContainer.kitchenHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
@@ -66,7 +66,7 @@ class EFHMConversationViewController: UIViewController {
                         weakSelf.showFoodsController()
                     }
             
-            self.bodyContainer.productHandler = {
+            self.bodyContainer.interviewHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return

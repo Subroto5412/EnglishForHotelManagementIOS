@@ -2,7 +2,7 @@
 //  EFHMSentenceViewController.swift
 //  EnglishForConstruction
 //
-//  Created by Subroto Mohonto on 30/5/20.
+//  Created by Subroto Mohonto on 5/9/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
 //
 
@@ -24,13 +24,13 @@ class EFHMSentenceViewController: UIViewController {
             super.viewDidLoad()
             topBar.titleNameLbl.text = "Sentence"
             self.initializeTopBar()
-
-            self.bodyContainer.primaryHandler = {
+            
+            self.bodyContainer.geetingsHandler = {
                        [weak self] (isShow) in
                        guard let weakSelf = self else {
                        return
                       }
-                   weakSelf.showPrimaryController()
+                   weakSelf.showGettingsyController()
                }
             
             self.bodyContainer.foodsHandler = {
@@ -41,36 +41,36 @@ class EFHMSentenceViewController: UIViewController {
                         weakSelf.showFoodsController()
                     }
             
-            self.bodyContainer.productHandler = {
+            self.bodyContainer.kitchenHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showProductController()
+                        weakSelf.shoKitchenController()
                     }
             
-            self.bodyContainer.workHandler = {
+            self.bodyContainer.serviceHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showWorkController()
+                        weakSelf.showServicesController()
                     }
             
-            self.bodyContainer.toolsHandler = {
+            self.bodyContainer.receptionHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showToolsController()
+                        weakSelf.showReceptionController()
                     }
             
-            self.bodyContainer.primaryHandler = {
+            self.bodyContainer.interviewHandler = {
                             [weak self] (isShow) in
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showPrimaryController()
+                        weakSelf.showGettingsyController()
                     }
     }
         func initializeTopBar() {
@@ -83,25 +83,27 @@ class EFHMSentenceViewController: UIViewController {
             self.present(controller, animated: true, completion: nil);
         }
         
-        func showPrimaryController() {
+        func showGettingsyController() {
               
         }
         
-        func showToolsController() {
+        func showReceptionController() {
             
         }
         
-        func showProductController() {
+        func showServicesController() {
             
         }
         
-        func showWorkController() {
+        func shoKitchenController() {
             
         }
         
         func showFoodsController() {
            
         }
+    
+       
     }
 
 
@@ -110,7 +112,6 @@ class EFHMSentenceViewController: UIViewController {
         func didPressedOnButtonType(type:EFHMButtonType) {
             
             if type == .back {
-              //  self.navigationController?.popToFadeAnimation()
                 let controller = EFHMHomeViewController.initWithStoryboard()
                 self.present(controller, animated: true, completion: nil);
             }

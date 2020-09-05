@@ -10,28 +10,27 @@ import UIKit
 
 class EFHMVocabulary: EFHMXibView {
 
-    var primaryHandler : ((Bool?) -> Void)?
-    var toolsHandler : ((Bool?) -> Void)?
-    var workHandler : ((Bool?) -> Void)?
-    var productHandler : ((Bool?) -> Void)?
+    var geetingsHandler : ((Bool?) -> Void)?
+    var receptionHandler : ((Bool?) -> Void)?
+    var serviceHandler : ((Bool?) -> Void)?
+    var kitchenHandler : ((Bool?) -> Void)?
     var foodsHandler : ((Bool?) -> Void)?
     var interviewHandler : ((Bool?) -> Void)?
  
-    
-    @IBAction func btnPrimary(_ sender: UIButton) {
-        self.primaryHandler?(true)
+    @IBAction func btnGeetings(_ sender: UIButton) {
+        self.geetingsHandler?(true)
     }
     
-    @IBAction func btnTools(_ sender: UIButton) {
-         self.toolsHandler?(true)
+    @IBAction func btnReception(_ sender: UIButton) {
+         self.receptionHandler?(true)
     }
     
-    @IBAction func btnWork(_ sender: UIButton) {
-         self.workHandler?(true)
+    @IBAction func btnServices(_ sender: UIButton) {
+         self.serviceHandler?(true)
     }
     
-    @IBAction func btnProduct(_ sender: UIButton) {
-         self.productHandler?(true)
+    @IBAction func btnKitchen(_ sender: UIButton) {
+         self.kitchenHandler?(true)
     }
     
     @IBAction func btnFoods(_ sender: Any) {

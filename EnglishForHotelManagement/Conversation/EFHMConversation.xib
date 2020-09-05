@@ -19,8 +19,8 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="primary" translatesAutoresizingMaskIntoConstraints="NO" id="Pqb-P5-Kyp">
                             <rect key="frame" x="23" y="19.666666666666664" width="41" height="41"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eW-ku-9xG">
-                            <rect key="frame" x="91.000000000000014" y="25.333333333333336" width="143.33333333333337" height="29.333333333333336"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geetings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eW-ku-9xG">
+                            <rect key="frame" x="91" y="25.333333333333336" width="104.33333333333331" height="29.333333333333336"/>
                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="26"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -28,7 +28,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ow-4o-KXe">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnPrimary:" destination="-1" eventType="touchUpInside" id="iqy-YT-NSn"/>
+                                <action selector="btnGeetings:" destination="-1" eventType="touchUpInside" id="FdR-yZ-5vf"/>
                             </connections>
                         </button>
                     </subviews>
@@ -50,8 +50,8 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reception" translatesAutoresizingMaskIntoConstraints="NO" id="lr1-Ek-2JN">
                             <rect key="frame" x="23" y="19.666666666666657" width="41" height="41"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instruction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-lJ-5WY">
-                            <rect key="frame" x="91" y="25.333333333333343" width="120" height="29.333333333333329"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reception" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-lJ-5WY">
+                            <rect key="frame" x="91" y="25.333333333333343" width="117.33333333333331" height="29.333333333333329"/>
                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="26"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -59,7 +59,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr8-Eq-sRf">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnTools:" destination="-1" eventType="touchUpInside" id="j0o-sk-V07"/>
+                                <action selector="btnReception:" destination="-1" eventType="touchUpInside" id="Iz4-8n-1GO"/>
                             </connections>
                         </button>
                     </subviews>
@@ -81,8 +81,8 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="work" translatesAutoresizingMaskIntoConstraints="NO" id="Oo8-c4-Q7Q">
                             <rect key="frame" x="23" y="19.666666666666657" width="41" height="41"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U94-kd-rKy">
-                            <rect key="frame" x="91" y="30" width="61" height="30"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U94-kd-rKy">
+                            <rect key="frame" x="91" y="30" width="100" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="26"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +91,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-j6-tdG">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnWork:" destination="-1" eventType="touchUpInside" id="SgU-9R-rJg"/>
+                                <action selector="btnServices:" destination="-1" eventType="touchUpInside" id="QII-A6-a0n"/>
                             </connections>
                         </button>
                     </subviews>
@@ -111,8 +111,8 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="kwe-z9-7Hz">
                             <rect key="frame" x="23" y="19.666666666666686" width="41" height="41"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFY-Z9-Hgq">
-                            <rect key="frame" x="91" y="25" width="90" height="30"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFY-Z9-Hgq">
+                            <rect key="frame" x="91" y="25" width="87" height="30"/>
                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="26"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -120,7 +120,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjw-Dq-ydd">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnProduct:" destination="-1" eventType="touchUpInside" id="T26-Ng-dmx"/>
+                                <action selector="btnKitchen:" destination="-1" eventType="touchUpInside" id="eZS-0p-60B"/>
                             </connections>
                         </button>
                     </subviews>
@@ -151,7 +151,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da2-yp-pbA">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnFoods:" destination="-1" eventType="touchUpInside" id="wS1-sy-jDN"/>
+                                <action selector="btnFoods:" destination="-1" eventType="touchUpInside" id="O9O-zH-08T"/>
                             </connections>
                         </button>
                     </subviews>
@@ -182,7 +182,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANm-G9-5EV">
                             <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                             <connections>
-                                <action selector="btnInterview:" destination="-1" eventType="touchUpInside" id="MAu-kE-a64"/>
+                                <action selector="btnInterview:" destination="-1" eventType="touchUpInside" id="0o2-bY-jtX"/>
                             </connections>
                         </button>
                     </subviews>

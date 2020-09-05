@@ -2,7 +2,7 @@
 //  EFHMVocabularyViewController.swift
 //  EnglishForConstruction
 //
-//  Created by Subroto Mohonto on 24/5/20.
+//  Created by Subroto Mohonto on 5/9/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
 //
 
@@ -25,12 +25,12 @@ class EFHMVocabularyViewController: UIViewController {
 
         self.initializeTopBar()
 
-        self.bodyContainer.primaryHandler = {
+        self.bodyContainer.geetingsHandler = {
                    [weak self] (isShow) in
                    guard let weakSelf = self else {
                    return
                   }
-               weakSelf.showPrimaryController()
+               weakSelf.showGeetingsController()
            }
         
         self.bodyContainer.foodsHandler = {
@@ -41,37 +41,37 @@ class EFHMVocabularyViewController: UIViewController {
                     weakSelf.showFoodsController()
                 }
         
-        self.bodyContainer.productHandler = {
+        self.bodyContainer.receptionHandler = {
                         [weak self] (isShow) in
                         guard let weakSelf = self else {
                         return
                        }
-                    weakSelf.showProductController()
+                    weakSelf.showReceptionController()
                 }
         
-        self.bodyContainer.workHandler = {
+        self.bodyContainer.serviceHandler = {
                         [weak self] (isShow) in
                         guard let weakSelf = self else {
                         return
                        }
-                    weakSelf.showWorkController()
+                    weakSelf.showServiceController()
                 }
         
-        self.bodyContainer.toolsHandler = {
+        self.bodyContainer.kitchenHandler = {
                         [weak self] (isShow) in
                         guard let weakSelf = self else {
                         return
                        }
-                    weakSelf.showToolsController()
+                    weakSelf.showKitchenController()
                 }
         
-        self.bodyContainer.primaryHandler = {
-                        [weak self] (isShow) in
-                        guard let weakSelf = self else {
-                        return
-                       }
-                    weakSelf.showPrimaryController()
-                }
+//        self.bodyContainer.primaryHandler = {
+//                        [weak self] (isShow) in
+//                        guard let weakSelf = self else {
+//                        return
+//                       }
+//                    weakSelf.showPrimaryController()
+//                }
 }
     func initializeTopBar() {
         self.topBar.delegate = self
@@ -83,22 +83,22 @@ class EFHMVocabularyViewController: UIViewController {
         self.present(controller, animated: true, completion: nil);
     }
     
-    func showPrimaryController() {
-//          let controller = EFHMPrimaryController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+    func showGeetingsController() {
+          let controller = EFHMVocabularyGeetingsController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
     
-    func showToolsController() {
+    func showKitchenController() {
 //          let controller = EFHMToolsViewController.initWithStoryboard()
 //          self.present(controller, animated: true, completion: nil);
     }
     
-    func showProductController() {
+    func showReceptionController() {
 //          let controller = EFHMProductViewController.initWithStoryboard()
 //          self.present(controller, animated: true, completion: nil);
     }
     
-    func showWorkController() {
+    func showServiceController() {
 //          let controller = EFHMWorkViewController.initWithStoryboard()
 //          self.present(controller, animated: true, completion: nil);
     }
