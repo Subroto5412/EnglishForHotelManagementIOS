@@ -94,7 +94,8 @@ class EFHMSentenceViewController: UIViewController {
         }
         
         func showServicesController() {
-            
+            let controller = EFHMSentenceServicesController.initWithStoryboard()
+            self.present(controller, animated: true, completion: nil);
         }
         
         func shoKitchenController() {
