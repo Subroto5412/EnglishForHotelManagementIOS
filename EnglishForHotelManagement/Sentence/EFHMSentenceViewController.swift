@@ -104,7 +104,8 @@ class EFHMSentenceViewController: UIViewController {
         }
         
         func showFoodsController() {
-           
+           let controller = EFHMSentenceFoodsController.initWithStoryboard()
+           self.present(controller, animated: true, completion: nil);
         }
     
        
