@@ -977,7 +977,111 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UcH-ix-i4F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857.97101449275374" y="2224.5535714285711"/>
+            <point key="canvasLocation" x="664" y="2224"/>
+        </scene>
+        <!--Sentence Reception Controller-->
+        <scene sceneID="FWb-c1-m1P">
+            <objects>
+                <viewController storyboardIdentifier="EFHMSentenceReceptionController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nva-yd-L56" customClass="EFHMSentenceReceptionController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PDz-qc-t38">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLK-hK-fjI">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edI-Wi-Nxr" customClass="EFHMTopBar" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="157"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ykl-0z-tnj">
+                                        <rect key="frame" x="0.0" y="157" width="414" height="661"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EFHMSentenceReceptionControllerCell" rowHeight="138" id="oug-Ke-MLi" customClass="EFHMSentenceReceptionControllerCell" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="414" height="138"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oug-Ke-MLi" id="sXf-z7-PRY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kbf-3D-bMh" customClass="EFHMDesignCardView" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                                            <rect key="frame" x="16" y="5" width="382" height="122"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqs-uV-yyo">
+                                                                    <rect key="frame" x="24" y="19" width="338" height="19"/>
+                                                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df9-4z-NM6">
+                                                                    <rect key="frame" x="24" y="46" width="37" height="17"/>
+                                                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                                                    <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <constraints>
+                                                                <constraint firstItem="Df9-4z-NM6" firstAttribute="leading" secondItem="Kbf-3D-bMh" secondAttribute="leading" constant="24" id="8px-Ob-NRA"/>
+                                                                <constraint firstItem="Iqs-uV-yyo" firstAttribute="leading" secondItem="Kbf-3D-bMh" secondAttribute="leading" constant="24" id="FiS-1s-Zhu"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Df9-4z-NM6" secondAttribute="trailing" constant="20" symbolic="YES" id="HUj-pu-aJc"/>
+                                                                <constraint firstItem="Df9-4z-NM6" firstAttribute="top" secondItem="Iqs-uV-yyo" secondAttribute="bottom" constant="8" id="Hjo-Tg-qyT"/>
+                                                                <constraint firstItem="Iqs-uV-yyo" firstAttribute="top" secondItem="Kbf-3D-bMh" secondAttribute="top" constant="19" id="UKz-6B-gjb"/>
+                                                                <constraint firstAttribute="height" constant="80" id="Ytb-Rt-AZc"/>
+                                                                <constraint firstAttribute="width" constant="305" id="oIp-uk-NfQ"/>
+                                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Iqs-uV-yyo" secondAttribute="trailing" constant="20" symbolic="YES" id="qXJ-iT-qQ7"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Kbf-3D-bMh" secondAttribute="trailing" constant="16" id="Uol-La-AJ3"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Kbf-3D-bMh" secondAttribute="bottom" constant="11" id="eB9-WV-GeD"/>
+                                                        <constraint firstItem="Kbf-3D-bMh" firstAttribute="top" secondItem="sXf-z7-PRY" secondAttribute="top" constant="5" id="gty-mm-nRs"/>
+                                                        <constraint firstItem="Kbf-3D-bMh" firstAttribute="leading" secondItem="sXf-z7-PRY" secondAttribute="leading" constant="16" id="tWv-Rn-RNS"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="banglaWord" destination="Iqs-uV-yyo" id="IdF-az-I5j"/>
+                                                    <outlet property="englishWord" destination="Df9-4z-NM6" id="Jdq-oS-le7"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="nva-yd-L56" id="dGl-2e-RUB"/>
+                                            <outlet property="delegate" destination="nva-yd-L56" id="AWy-OD-hxb"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Ykl-0z-tnj" secondAttribute="bottom" id="3eG-x6-IUy"/>
+                                    <constraint firstItem="edI-Wi-Nxr" firstAttribute="leading" secondItem="bLK-hK-fjI" secondAttribute="leading" id="8Mw-mQ-Mid"/>
+                                    <constraint firstItem="edI-Wi-Nxr" firstAttribute="top" secondItem="bLK-hK-fjI" secondAttribute="top" id="VlN-vC-VVH"/>
+                                    <constraint firstItem="Ykl-0z-tnj" firstAttribute="leading" secondItem="bLK-hK-fjI" secondAttribute="leading" id="bIA-gl-haE"/>
+                                    <constraint firstItem="Ykl-0z-tnj" firstAttribute="top" secondItem="edI-Wi-Nxr" secondAttribute="bottom" id="cDS-XY-Lfj"/>
+                                    <constraint firstItem="edI-Wi-Nxr" firstAttribute="height" secondItem="bLK-hK-fjI" secondAttribute="height" multiplier="141:734" id="kKf-35-s6w"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ykl-0z-tnj" secondAttribute="trailing" id="lBW-Id-PfO"/>
+                                    <constraint firstAttribute="trailing" secondItem="edI-Wi-Nxr" secondAttribute="trailing" id="tZg-kK-lht"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bLK-hK-fjI" firstAttribute="leading" secondItem="btM-nw-nbQ" secondAttribute="leading" id="5Id-bL-fWI"/>
+                            <constraint firstItem="bLK-hK-fjI" firstAttribute="top" secondItem="btM-nw-nbQ" secondAttribute="top" id="Lgp-6Z-XjQ"/>
+                            <constraint firstItem="btM-nw-nbQ" firstAttribute="bottom" secondItem="bLK-hK-fjI" secondAttribute="bottom" id="g7N-nj-g8V"/>
+                            <constraint firstItem="btM-nw-nbQ" firstAttribute="trailing" secondItem="bLK-hK-fjI" secondAttribute="trailing" id="qxo-1h-I5n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="btM-nw-nbQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="topBar" destination="edI-Wi-Nxr" id="7DZ-88-c8d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jO5-pN-2yj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="2224"/>
         </scene>
     </scenes>
     <resources>

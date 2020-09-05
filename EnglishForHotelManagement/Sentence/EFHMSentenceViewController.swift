@@ -89,7 +89,8 @@ class EFHMSentenceViewController: UIViewController {
         }
         
         func showReceptionController() {
-            
+            let controller = EFHMSentenceReceptionController.initWithStoryboard()
+            self.present(controller, animated: true, completion: nil);
         }
         
         func showServicesController() {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		590075842504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590075832504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift */; };
+		590075872504162F00A3A914 /* EFHMSentenceReceptionControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590075862504162F00A3A914 /* EFHMSentenceReceptionControllerCell.swift */; };
+		590075892504164100A3A914 /* EFHMSentenceReceptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590075882504164100A3A914 /* EFHMSentenceReceptionController.swift */; };
 		5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */; };
 		59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB524E491D000BB70EA /* AppDelegate.swift */; };
 		59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB724E491D000BB70EA /* SceneDelegate.swift */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		590075832504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsControllerCell.swift; sourceTree = "<group>"; };
+		590075862504162F00A3A914 /* EFHMSentenceReceptionControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceReceptionControllerCell.swift; sourceTree = "<group>"; };
+		590075882504164100A3A914 /* EFHMSentenceReceptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceReceptionController.swift; sourceTree = "<group>"; };
 		5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsController.swift; sourceTree = "<group>"; };
 		59279EB224E491D000BB70EA /* EnglishForHotelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishForHotelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59279EB524E491D000BB70EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59007585250415F900A3A914 /* Reception */ = {
+			isa = PBXGroup;
+			children = (
+				590075862504162F00A3A914 /* EFHMSentenceReceptionControllerCell.swift */,
+				590075882504164100A3A914 /* EFHMSentenceReceptionController.swift */,
+			);
+			path = Reception;
+			sourceTree = "<group>";
+		};
 		5916AD8D25040F79002B3009 /* Geetings */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +280,7 @@
 		59C4650225037340008EAE66 /* Sentence */ = {
 			isa = PBXGroup;
 			children = (
+				59007585250415F900A3A914 /* Reception */,
 				5916AD8D25040F79002B3009 /* Geetings */,
 				59C465032503738B008EAE66 /* EFHMSentence.swift */,
 				59C465062503738B008EAE66 /* EFHMSentence.xib */,
@@ -366,6 +380,7 @@
 			files = (
 				59C4651025037943008EAE66 /* EFHMConversationViewController.swift in Sources */,
 				59C465092503738B008EAE66 /* EFHMSentenceViewController.swift in Sources */,
+				590075892504164100A3A914 /* EFHMSentenceReceptionController.swift in Sources */,
 				59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */,
 				594677462503F0840098C740 /* EFHMVocabularyServicesController.swift in Sources */,
 				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
@@ -384,6 +399,7 @@
 				59C464F82503695C008EAE66 /* EFHMTopBarForQuiz2.swift in Sources */,
 				59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */,
 				594677422503DF9D0098C740 /* EFHMVocabularyReceptionController.swift in Sources */,
+				590075872504162F00A3A914 /* EFHMSentenceReceptionControllerCell.swift in Sources */,
 				59C4650025036C59008EAE66 /* EFHMVocabulary.swift in Sources */,
 				59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */,
 				59279ECB24E495FE00BB70EA /* EFHMXibView.swift in Sources */,
