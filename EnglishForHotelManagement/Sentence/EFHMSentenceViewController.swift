@@ -99,7 +99,8 @@ class EFHMSentenceViewController: UIViewController {
         }
         
         func shoKitchenController() {
-            
+            let controller = EFHMSentenceKitchenController.initWithStoryboard()
+            self.present(controller, animated: true, completion: nil);
         }
         
         func showFoodsController() {

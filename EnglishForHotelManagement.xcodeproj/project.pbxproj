@@ -12,6 +12,8 @@
 		590075892504164100A3A914 /* EFHMSentenceReceptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590075882504164100A3A914 /* EFHMSentenceReceptionController.swift */; };
 		5900758C2504178B00A3A914 /* EFHMSentenceServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900758B2504178B00A3A914 /* EFHMSentenceServicesController.swift */; };
 		5900758E2504179F00A3A914 /* EFHMSentenceServicesControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900758D2504179F00A3A914 /* EFHMSentenceServicesControllerCell.swift */; };
+		5900759125041C2700A3A914 /* EFHMSentenceKitchenControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900759025041C2700A3A914 /* EFHMSentenceKitchenControllerCell.swift */; };
+		5900759325041C3E00A3A914 /* EFHMSentenceKitchenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900759225041C3E00A3A914 /* EFHMSentenceKitchenController.swift */; };
 		5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */; };
 		59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB524E491D000BB70EA /* AppDelegate.swift */; };
 		59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB724E491D000BB70EA /* SceneDelegate.swift */; };
@@ -63,6 +65,8 @@
 		590075882504164100A3A914 /* EFHMSentenceReceptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceReceptionController.swift; sourceTree = "<group>"; };
 		5900758B2504178B00A3A914 /* EFHMSentenceServicesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceServicesController.swift; sourceTree = "<group>"; };
 		5900758D2504179F00A3A914 /* EFHMSentenceServicesControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceServicesControllerCell.swift; sourceTree = "<group>"; };
+		5900759025041C2700A3A914 /* EFHMSentenceKitchenControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceKitchenControllerCell.swift; sourceTree = "<group>"; };
+		5900759225041C3E00A3A914 /* EFHMSentenceKitchenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceKitchenController.swift; sourceTree = "<group>"; };
 		5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsController.swift; sourceTree = "<group>"; };
 		59279EB224E491D000BB70EA /* EnglishForHotelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishForHotelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59279EB524E491D000BB70EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,15 @@
 				5900758D2504179F00A3A914 /* EFHMSentenceServicesControllerCell.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		5900758F25041C0A00A3A914 /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				5900759025041C2700A3A914 /* EFHMSentenceKitchenControllerCell.swift */,
+				5900759225041C3E00A3A914 /* EFHMSentenceKitchenController.swift */,
+			);
+			path = Kitchen;
 			sourceTree = "<group>";
 		};
 		5916AD8D25040F79002B3009 /* Geetings */ = {
@@ -293,6 +306,7 @@
 		59C4650225037340008EAE66 /* Sentence */ = {
 			isa = PBXGroup;
 			children = (
+				5900758F25041C0A00A3A914 /* Kitchen */,
 				5900758A2504174300A3A914 /* Services */,
 				59007585250415F900A3A914 /* Reception */,
 				5916AD8D25040F79002B3009 /* Geetings */,
@@ -426,8 +440,10 @@
 				594677502503F9E20098C740 /* EFHMVocabularyFoodsControllerCell.swift in Sources */,
 				5946773B2503C11B0098C740 /* EFHMVocabularyModel.swift in Sources */,
 				59C465072503738B008EAE66 /* EFHMSentence.swift in Sources */,
+				5900759125041C2700A3A914 /* EFHMSentenceKitchenControllerCell.swift in Sources */,
 				59C4651125037943008EAE66 /* EFHMConversation.swift in Sources */,
 				5946773D2503C2FC0098C740 /* EFHMDesignCardView.swift in Sources */,
+				5900759325041C3E00A3A914 /* EFHMSentenceKitchenController.swift in Sources */,
 				594677412503DF9D0098C740 /* EFHMVocabularyReceptionControllerCell.swift in Sources */,
 				594677512503F9E20098C740 /* EFHMVocabularyFoodsController.swift in Sources */,
 			);
