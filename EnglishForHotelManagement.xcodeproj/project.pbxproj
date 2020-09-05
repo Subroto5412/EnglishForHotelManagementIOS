@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590075842504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590075832504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift */; };
+		5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */; };
 		59279EB624E491D000BB70EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB524E491D000BB70EA /* AppDelegate.swift */; };
 		59279EB824E491D000BB70EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB724E491D000BB70EA /* SceneDelegate.swift */; };
 		59279EBA24E491D000BB70EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59279EB924E491D000BB70EA /* ViewController.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590075832504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsControllerCell.swift; sourceTree = "<group>"; };
+		5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsController.swift; sourceTree = "<group>"; };
 		59279EB224E491D000BB70EA /* EnglishForHotelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishForHotelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59279EB524E491D000BB70EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59279EB724E491D000BB70EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5916AD8D25040F79002B3009 /* Geetings */ = {
+			isa = PBXGroup;
+			children = (
+				5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */,
+				590075832504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift */,
+			);
+			path = Geetings;
+			sourceTree = "<group>";
+		};
 		59279EA924E491D000BB70EA = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,7 @@
 		59C4650225037340008EAE66 /* Sentence */ = {
 			isa = PBXGroup;
 			children = (
+				5916AD8D25040F79002B3009 /* Geetings */,
 				59C465032503738B008EAE66 /* EFHMSentence.swift */,
 				59C465062503738B008EAE66 /* EFHMSentence.xib */,
 				59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */,
@@ -356,10 +370,12 @@
 				594677462503F0840098C740 /* EFHMVocabularyServicesController.swift in Sources */,
 				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
+				590075842504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift in Sources */,
 				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
 				5946774B2503F5870098C740 /* EFHMVocabularyKitchenController.swift in Sources */,
 				59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */,
 				594677372503C03A0098C740 /* EFHMVocabularyGeetingsController.swift in Sources */,
+				5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */,
 				5946773A2503C11B0098C740 /* EFHMVocabularyDataManager.swift in Sources */,
 				5946774C2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift in Sources */,
 				594677472503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift in Sources */,
