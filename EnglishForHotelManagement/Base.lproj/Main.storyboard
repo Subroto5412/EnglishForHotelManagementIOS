@@ -316,6 +316,45 @@
             </objects>
             <point key="canvasLocation" x="2052" y="783"/>
         </scene>
+        <!--Conversation View Controller-->
+        <scene sceneID="Zj0-AL-qff">
+            <objects>
+                <viewController storyboardIdentifier="EFHMConversationViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Rd-ag-aBE" customClass="EFHMConversationViewController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hlt-jA-zHs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4V-A2-1iR" customClass="EFHMTopBar" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="156"/>
+                                <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNV-xd-oa4" customClass="EFHMConversation" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="212" width="414" height="650"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56862745098039214" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9ic-dn-gbG" firstAttribute="trailing" secondItem="u4V-A2-1iR" secondAttribute="trailing" id="2xd-HX-dz9"/>
+                            <constraint firstItem="u4V-A2-1iR" firstAttribute="height" secondItem="hlt-jA-zHs" secondAttribute="height" multiplier="145:812" constant="-4" id="5nP-ji-Y6L"/>
+                            <constraint firstItem="sNV-xd-oa4" firstAttribute="top" secondItem="u4V-A2-1iR" secondAttribute="bottom" constant="12" id="K8V-wO-gIw"/>
+                            <constraint firstItem="9ic-dn-gbG" firstAttribute="bottom" secondItem="sNV-xd-oa4" secondAttribute="bottom" id="hVJ-IZ-JFT"/>
+                            <constraint firstItem="sNV-xd-oa4" firstAttribute="leading" secondItem="9ic-dn-gbG" secondAttribute="leading" id="jSd-6N-Mgu"/>
+                            <constraint firstItem="u4V-A2-1iR" firstAttribute="top" secondItem="9ic-dn-gbG" secondAttribute="top" id="loJ-rN-vTV"/>
+                            <constraint firstItem="9ic-dn-gbG" firstAttribute="trailing" secondItem="sNV-xd-oa4" secondAttribute="trailing" id="ooU-v0-MGB"/>
+                            <constraint firstItem="u4V-A2-1iR" firstAttribute="leading" secondItem="9ic-dn-gbG" secondAttribute="leading" id="zde-bH-mh0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9ic-dn-gbG"/>
+                    </view>
+                    <connections>
+                        <outlet property="bodyContainer" destination="sNV-xd-oa4" id="uDm-Ac-aqg"/>
+                        <outlet property="topBar" destination="u4V-A2-1iR" id="28Y-sL-e2z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mk-OK-EX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2781" y="783"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bitmap" width="68" height="68"/>

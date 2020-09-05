@@ -33,6 +33,9 @@
 		59C465072503738B008EAE66 /* EFHMSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C465032503738B008EAE66 /* EFHMSentence.swift */; };
 		59C465092503738B008EAE66 /* EFHMSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */; };
 		59C4650A2503738B008EAE66 /* EFHMSentence.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C465062503738B008EAE66 /* EFHMSentence.xib */; };
+		59C4650F25037943008EAE66 /* EFHMConversation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C4650C25037942008EAE66 /* EFHMConversation.xib */; };
+		59C4651025037943008EAE66 /* EFHMConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4650D25037942008EAE66 /* EFHMConversationViewController.swift */; };
+		59C4651125037943008EAE66 /* EFHMConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4650E25037943008EAE66 /* EFHMConversation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		59C465032503738B008EAE66 /* EFHMSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMSentence.swift; sourceTree = "<group>"; };
 		59C465052503738B008EAE66 /* EFHMSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMSentenceViewController.swift; sourceTree = "<group>"; };
 		59C465062503738B008EAE66 /* EFHMSentence.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMSentence.xib; sourceTree = "<group>"; };
+		59C4650C25037942008EAE66 /* EFHMConversation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMConversation.xib; sourceTree = "<group>"; };
+		59C4650D25037942008EAE66 /* EFHMConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMConversationViewController.swift; sourceTree = "<group>"; };
+		59C4650E25037943008EAE66 /* EFHMConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMConversation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		59279EB424E491D000BB70EA /* EnglishForHotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				59C4650B2503792E008EAE66 /* Conversation */,
 				59C4650225037340008EAE66 /* Sentence */,
 				59C464EF2503695B008EAE66 /* TopBar */,
 				59C464EE25036924008EAE66 /* Vocabulary */,
@@ -175,6 +182,16 @@
 			path = Sentence;
 			sourceTree = "<group>";
 		};
+		59C4650B2503792E008EAE66 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				59C4650E25037943008EAE66 /* EFHMConversation.swift */,
+				59C4650C25037942008EAE66 /* EFHMConversation.xib */,
+				59C4650D25037942008EAE66 /* EFHMConversationViewController.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,6 +260,7 @@
 				59C464FB2503695C008EAE66 /* EFHMTopBarForQuiz2.xib in Resources */,
 				59C464FA2503695C008EAE66 /* EFHMTopBar.xib in Resources */,
 				59279EBD24E491D000BB70EA /* Main.storyboard in Resources */,
+				59C4650F25037943008EAE66 /* EFHMConversation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C4651025037943008EAE66 /* EFHMConversationViewController.swift in Sources */,
 				59C465092503738B008EAE66 /* EFHMSentenceViewController.swift in Sources */,
 				59279ECD24E4962900BB70EA /* NSObject+Extension.swift in Sources */,
 				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
@@ -270,6 +289,7 @@
 				59C464F72503695C008EAE66 /* EFHMTopBar.swift in Sources */,
 				59C464FF25036C59008EAE66 /* EFHMVocabularyViewController.swift in Sources */,
 				59C465072503738B008EAE66 /* EFHMSentence.swift in Sources */,
+				59C4651125037943008EAE66 /* EFHMConversation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
