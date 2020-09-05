@@ -82,8 +82,8 @@ class EFHMVocabularyViewController: UIViewController {
     }
     
     func showKitchenController() {
-//          let controller = EFHMToolsViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+          let controller = EFHMVocabularyKitchenController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
     
     func showReceptionController() {

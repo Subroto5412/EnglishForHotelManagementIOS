@@ -27,6 +27,8 @@
 		594677422503DF9D0098C740 /* EFHMVocabularyReceptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594677402503DF9D0098C740 /* EFHMVocabularyReceptionController.swift */; };
 		594677462503F0840098C740 /* EFHMVocabularyServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594677442503F0840098C740 /* EFHMVocabularyServicesController.swift */; };
 		594677472503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594677452503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift */; };
+		5946774B2503F5870098C740 /* EFHMVocabularyKitchenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594677492503F5870098C740 /* EFHMVocabularyKitchenController.swift */; };
+		5946774C2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5946774A2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift */; };
 		59897C4225010BD8007DA16C /* EFHMProgressBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */; };
 		59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */; };
 		59897C4425010BD8007DA16C /* EFHMProgressBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59897C4125010BD8007DA16C /* EFHMProgressBody.swift */; };
@@ -70,6 +72,8 @@
 		594677402503DF9D0098C740 /* EFHMVocabularyReceptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyReceptionController.swift; sourceTree = "<group>"; };
 		594677442503F0840098C740 /* EFHMVocabularyServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyServicesController.swift; sourceTree = "<group>"; };
 		594677452503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyServicesControllerCell.swift; sourceTree = "<group>"; };
+		594677492503F5870098C740 /* EFHMVocabularyKitchenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyKitchenController.swift; sourceTree = "<group>"; };
+		5946774A2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMVocabularyKitchenControllerCell.swift; sourceTree = "<group>"; };
 		59897C3F25010BD8007DA16C /* EFHMProgressBody.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFHMProgressBody.xib; sourceTree = "<group>"; };
 		59897C4025010BD8007DA16C /* EFHMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMHomeViewController.swift; sourceTree = "<group>"; };
 		59897C4125010BD8007DA16C /* EFHMProgressBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMProgressBody.swift; sourceTree = "<group>"; };
@@ -185,6 +189,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		594677482503F56C0098C740 /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				594677492503F5870098C740 /* EFHMVocabularyKitchenController.swift */,
+				5946774A2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift */,
+			);
+			path = Kitchen;
+			sourceTree = "<group>";
+		};
 		59897C3C25010A60007DA16C /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +211,7 @@
 		59C464EE25036924008EAE66 /* Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
+				594677482503F56C0098C740 /* Kitchen */,
 				594677432503EEBF0098C740 /* Services */,
 				5946773E2503DF6F0098C740 /* Reception */,
 				594677332503BFFC0098C740 /* Geetings */,
@@ -329,9 +343,11 @@
 				59897C4325010BD8007DA16C /* EFHMHomeViewController.swift in Sources */,
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
 				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
+				5946774B2503F5870098C740 /* EFHMVocabularyKitchenController.swift in Sources */,
 				59279ED224E496F500BB70EA /* EFHMHomePageController.swift in Sources */,
 				594677372503C03A0098C740 /* EFHMVocabularyGeetingsController.swift in Sources */,
 				5946773A2503C11B0098C740 /* EFHMVocabularyDataManager.swift in Sources */,
+				5946774C2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift in Sources */,
 				594677472503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift in Sources */,
 				59C464F92503695C008EAE66 /* EFHMTopBarForQuiz.swift in Sources */,
 				59279EBA24E491D000BB70EA /* ViewController.swift in Sources */,
