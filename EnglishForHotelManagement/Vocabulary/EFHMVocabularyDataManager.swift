@@ -25,15 +25,15 @@ class EFHMVocabularyDataManager: NSObject {
         return Vocabularies
     }
     
-//    func getAllToolsVocabulary()->[EFHMVocabularyModel]
-//    {
-//        var Tools = [EFHMVocabularyModel]()
-//        let Tool1 = EFHMVocabularyModel.init(type: "1", english: "Good Morning", bangla: "সুপ্রভাত")
-//        let Tool2 = EFHMVocabularyModel.init(type: "1", english: "Good Night", bangla: "শুভ রাত্রি")
-//
-//        Tools.append(contentsOf: [Tool1,Tool2])
-//        return Tools
-//    }
+    func getAllReceptionVocabulary()->[EFHMVocabularyModel]
+    {
+        var Tools = [EFHMVocabularyModel]()
+        let Tool1 = EFHMVocabularyModel.init(type: "1", english: "Good Morning", bangla: "সুপ্রভাত")
+        let Tool2 = EFHMVocabularyModel.init(type: "1", english: "Good Night", bangla: "শুভ রাত্রি")
+
+        Tools.append(contentsOf: [Tool1,Tool2])
+        return Tools
+    }
 //
 //    func getAllWorkVocabulary()->[EFHMVocabularyModel]
 //       {

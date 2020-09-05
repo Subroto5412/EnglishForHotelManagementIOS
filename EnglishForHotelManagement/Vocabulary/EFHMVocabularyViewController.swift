@@ -65,13 +65,6 @@ class EFHMVocabularyViewController: UIViewController {
                     weakSelf.showKitchenController()
                 }
         
-//        self.bodyContainer.primaryHandler = {
-//                        [weak self] (isShow) in
-//                        guard let weakSelf = self else {
-//                        return
-//                       }
-//                    weakSelf.showPrimaryController()
-//                }
 }
     func initializeTopBar() {
         self.topBar.delegate = self
@@ -94,8 +87,8 @@ class EFHMVocabularyViewController: UIViewController {
     }
     
     func showReceptionController() {
-//          let controller = EFHMProductViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+          let controller = EFHMVocabularyReceptionController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
     
     func showServiceController() {
