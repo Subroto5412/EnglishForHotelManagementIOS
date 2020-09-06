@@ -81,7 +81,7 @@ class EFHMHomeViewController: UIViewController {
         self.present(controller, animated: true, completion: nil);
     }
     func showQuizController() {
-//                 let controller = EFHMQuizViewController.initWithStoryboard()
-//                 self.present(controller, animated: true, completion: nil);
-          }
+        let controller = EFHMQuizViewController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
+    }
 }

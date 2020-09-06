@@ -1915,6 +1915,45 @@
             </objects>
             <point key="canvasLocation" x="3470" y="2918"/>
         </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="Wv6-Pr-eyj">
+            <objects>
+                <viewController storyboardIdentifier="EFHMQuizViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8JJ-av-IUJ" customClass="EFHMQuizViewController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tfb-cY-WMv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kgc-4q-9af" customClass="EFHMTopBar" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="155.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YT4-jw-UlK" customClass="EFHMQuizBody" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="199.5" width="414" height="662.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lZi-58-voH" firstAttribute="trailing" secondItem="YT4-jw-UlK" secondAttribute="trailing" id="3Cy-tY-LL8"/>
+                            <constraint firstItem="lZi-58-voH" firstAttribute="trailing" secondItem="Kgc-4q-9af" secondAttribute="trailing" id="B8T-YU-L8r"/>
+                            <constraint firstItem="YT4-jw-UlK" firstAttribute="top" secondItem="Kgc-4q-9af" secondAttribute="bottom" id="Pba-jR-AlH"/>
+                            <constraint firstItem="YT4-jw-UlK" firstAttribute="leading" secondItem="lZi-58-voH" secondAttribute="leading" id="UDk-kE-0mz"/>
+                            <constraint firstItem="lZi-58-voH" firstAttribute="bottom" secondItem="YT4-jw-UlK" secondAttribute="bottom" id="UKR-WB-xw9"/>
+                            <constraint firstItem="Kgc-4q-9af" firstAttribute="height" secondItem="Tfb-cY-WMv" secondAttribute="height" multiplier="141:812" id="W9a-eU-kyp"/>
+                            <constraint firstItem="Kgc-4q-9af" firstAttribute="leading" secondItem="lZi-58-voH" secondAttribute="leading" id="pQT-NE-CgP"/>
+                            <constraint firstItem="Kgc-4q-9af" firstAttribute="top" secondItem="lZi-58-voH" secondAttribute="top" id="pVv-UR-XdJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lZi-58-voH"/>
+                    </view>
+                    <connections>
+                        <outlet property="bodyContainer" destination="YT4-jw-UlK" id="mzm-Hg-8XB"/>
+                        <outlet property="topBar" destination="Kgc-4q-9af" id="eJB-ew-4uv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDW-DQ-n0Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="648" y="3571"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bitmap" width="68" height="68"/>
