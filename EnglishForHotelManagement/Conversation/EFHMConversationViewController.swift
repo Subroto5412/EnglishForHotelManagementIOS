@@ -31,7 +31,7 @@ class EFHMConversationViewController: UIViewController {
                        guard let weakSelf = self else {
                        return
                       }
-                   weakSelf.showHowToWorkController()
+                   weakSelf.showGeetingsController()
                }
             
             self.bodyContainer.receptionHandler = {
@@ -71,7 +71,7 @@ class EFHMConversationViewController: UIViewController {
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showHowToWorkController()
+                        weakSelf.showGeetingsController()
                     }
     }
         func initializeTopBar() {
@@ -84,9 +84,9 @@ class EFHMConversationViewController: UIViewController {
             self.present(controller, animated: true, completion: nil);
         }
         
-        func showHowToWorkController() {
-//              let controller = EFHMConversationHowToWorkController.initWithStoryboard()
-//              self.present(controller, animated: true, completion: nil);
+        func showGeetingsController() {
+              let controller = EFHMConversationGeetingsController.initWithStoryboard()
+              self.present(controller, animated: true, completion: nil);
         }
         
         func showInstructionController() {
