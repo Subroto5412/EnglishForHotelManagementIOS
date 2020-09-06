@@ -55,7 +55,7 @@ class EFHMConversationViewController: UIViewController {
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showWorkController()
+                        weakSelf.showKitchenController()
                     }
             
             self.bodyContainer.foodsHandler = {
@@ -99,9 +99,9 @@ class EFHMConversationViewController: UIViewController {
               self.present(controller, animated: true, completion: nil);
         }
         
-        func showWorkController() {
-//              let controller = EFHMWorkViewController.initWithStoryboard()
-//              self.present(controller, animated: true, completion: nil);
+        func showKitchenController() {
+              let controller = EFHMConversationKitchenController.initWithStoryboard()
+              self.present(controller, animated: true, completion: nil);
         }
         
         func showFoodsController() {
