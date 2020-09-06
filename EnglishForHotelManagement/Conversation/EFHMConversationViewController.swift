@@ -39,7 +39,7 @@ class EFHMConversationViewController: UIViewController {
                             guard let weakSelf = self else {
                             return
                            }
-                        weakSelf.showInstructionController()
+                        weakSelf.showReceptionController()
                     }
             
             self.bodyContainer.serviceHandler = {
@@ -89,9 +89,9 @@ class EFHMConversationViewController: UIViewController {
               self.present(controller, animated: true, completion: nil);
         }
         
-        func showInstructionController() {
-//              let controller = EFHMConversationInstructionController.initWithStoryboard()
-//              self.present(controller, animated: true, completion: nil);
+        func showReceptionController() {
+              let controller = EFHMConversationReceptionController.initWithStoryboard()
+              self.present(controller, animated: true, completion: nil);
         }
         
         func showProductController() {

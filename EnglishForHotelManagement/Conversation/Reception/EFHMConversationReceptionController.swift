@@ -1,5 +1,5 @@
 //
-//  EFHMConversationGeetingsController.swift
+//  EFHMConversationReceptionController.swift
 //  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 6/9/20.
@@ -8,20 +8,20 @@
 
 import UIKit
 
-class EFHMConversationGeetingsController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class EFHMConversationReceptionController:  UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var topBar: EFHMTopBar!
     var items = EFHMVocabularyDataManager.shared.getAllGeetingsVocabulary()
     
-    class func initWithStoryboard() -> EFHMConversationGeetingsController {
+    class func initWithStoryboard() -> EFHMConversationReceptionController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: EFHMConversationGeetingsController.className) as! EFHMConversationGeetingsController
+        let controller = storyboard.instantiateViewController(withIdentifier: EFHMConversationReceptionController.className) as! EFHMConversationReceptionController
         return controller
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.topBar.titleNameLbl.text = "Geetings Conversation"
+        self.topBar.titleNameLbl.text = "Reception Conversation"
         self.initializeTopBar()
     }
     func initializeTopBar() {
@@ -37,7 +37,7 @@ class EFHMConversationGeetingsController: UIViewController, UITableViewDataSourc
         
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell:EFHMConversationGeetingsControllerCell = tableView.dequeueReusableCell(withIdentifier: "EFHMConversationGeetingsControllerCell") as! EFHMConversationGeetingsControllerCell
+        let cell:EFHMConversationReceptionControllerCell = tableView.dequeueReusableCell(withIdentifier: "EFHMConversationReceptionControllerCell") as! EFHMConversationReceptionControllerCell
             
         cell.englishWord.text = self.items[indexPath.item].english
         cell.banglaWord.text =  self.items[indexPath.item].bangla
@@ -45,7 +45,7 @@ class EFHMConversationGeetingsController: UIViewController, UITableViewDataSourc
     }
 }
 
-extension EFHMConversationGeetingsController : EFHMTopBarDelegate {
+extension EFHMConversationReceptionController : EFHMTopBarDelegate {
     
     func didPressedOnButtonType(type:EFHMButtonType) {
     if type == .back {
