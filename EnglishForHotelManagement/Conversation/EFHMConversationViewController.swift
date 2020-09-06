@@ -105,8 +105,8 @@ class EFHMConversationViewController: UIViewController {
         }
         
         func showFoodsController() {
-//              let controller = EFHMConversationFoodsController.initWithStoryboard()
-//              self.present(controller, animated: true, completion: nil);
+              let controller = EFHMConversationFoodsController.initWithStoryboard()
+              self.present(controller, animated: true, completion: nil);
         }
     }
 
