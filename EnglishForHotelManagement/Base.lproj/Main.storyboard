@@ -2084,6 +2084,136 @@
             </objects>
             <point key="canvasLocation" x="1367" y="3571"/>
         </scene>
+        <!--Level02 View Controller-->
+        <scene sceneID="XHp-Aq-ztx">
+            <objects>
+                <viewController storyboardIdentifier="EFHMLevel02ViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lDf-VY-uE0" customClass="EFHMLevel02ViewController" customModule="EnglishForHotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsl-1z-Fle">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9s-nf-vjp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UFx-rn-Ufu" customClass="EFHMTopBarForQuiz2" customModule="EnglishForHotelManagement" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="462.5"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_btn" translatesAutoresizingMaskIntoConstraints="NO" id="RSd-g0-3aK">
+                                        <rect key="frame" x="36" y="492.5" width="342" height="53.5"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ien-D5-A2N">
+                                        <rect key="frame" x="36" y="492.5" width="342" height="53.5"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                        <state key="normal" title="Yes I have">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressAnswerA:" destination="lDf-VY-uE0" eventType="touchUpInside" id="w1D-2P-unU"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_btn" translatesAutoresizingMaskIntoConstraints="NO" id="mKC-gN-wgB">
+                                        <rect key="frame" x="36" y="556" width="342" height="53.5"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imh-GF-98g">
+                                        <rect key="frame" x="36" y="556" width="342" height="53.5"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                        <state key="normal" title="No I don't">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressAnswerB:" destination="lDf-VY-uE0" eventType="touchUpInside" id="TaE-du-xLv"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_btn" translatesAutoresizingMaskIntoConstraints="NO" id="odw-hz-F1F">
+                                        <rect key="frame" x="36" y="619.5" width="342" height="53.5"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVf-hL-FCO">
+                                        <rect key="frame" x="36" y="619.5" width="342" height="53.5"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                        <state key="normal" title="A little bit">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressAnswerC:" destination="lDf-VY-uE0" eventType="touchUpInside" id="5T3-5j-Xze"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_btn" translatesAutoresizingMaskIntoConstraints="NO" id="fbD-od-D8S">
+                                        <rect key="frame" x="36" y="683" width="342" height="53.5"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEd-xY-ZNZ">
+                                        <rect key="frame" x="36" y="683" width="342" height="53.5"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                        <state key="normal" title="For 1 Year">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressAnswerD:" destination="lDf-VY-uE0" eventType="touchUpInside" id="Dx7-Kn-Kga"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="QEd-xY-ZNZ" firstAttribute="height" secondItem="fbD-od-D8S" secondAttribute="height" id="0as-w2-DvN"/>
+                                    <constraint firstItem="UFx-rn-Ufu" firstAttribute="leading" secondItem="f9s-nf-vjp" secondAttribute="leading" id="34L-WW-FGV"/>
+                                    <constraint firstItem="QEd-xY-ZNZ" firstAttribute="centerY" secondItem="fbD-od-D8S" secondAttribute="centerY" id="9LK-Xf-1ri"/>
+                                    <constraint firstItem="vVf-hL-FCO" firstAttribute="centerX" secondItem="odw-hz-F1F" secondAttribute="centerX" id="Bds-Cl-wlx"/>
+                                    <constraint firstItem="fbD-od-D8S" firstAttribute="centerX" secondItem="f9s-nf-vjp" secondAttribute="centerX" id="GJm-fO-ZTg"/>
+                                    <constraint firstItem="vVf-hL-FCO" firstAttribute="height" secondItem="odw-hz-F1F" secondAttribute="height" id="IAg-dh-jcI"/>
+                                    <constraint firstAttribute="trailing" secondItem="UFx-rn-Ufu" secondAttribute="trailing" id="Ia6-SJ-xRD"/>
+                                    <constraint firstItem="ien-D5-A2N" firstAttribute="width" secondItem="RSd-g0-3aK" secondAttribute="width" id="J0O-4o-HKZ"/>
+                                    <constraint firstItem="mKC-gN-wgB" firstAttribute="width" secondItem="f9s-nf-vjp" secondAttribute="width" multiplier="310:375" id="KUX-pe-6gq"/>
+                                    <constraint firstItem="odw-hz-F1F" firstAttribute="width" secondItem="f9s-nf-vjp" secondAttribute="width" multiplier="310:375" id="Li9-TI-BSo"/>
+                                    <constraint firstItem="odw-hz-F1F" firstAttribute="height" secondItem="f9s-nf-vjp" secondAttribute="height" multiplier="48:734" id="M4I-Wb-uEs"/>
+                                    <constraint firstItem="QEd-xY-ZNZ" firstAttribute="centerX" secondItem="fbD-od-D8S" secondAttribute="centerX" id="NKS-1F-ZQQ"/>
+                                    <constraint firstItem="vVf-hL-FCO" firstAttribute="centerY" secondItem="odw-hz-F1F" secondAttribute="centerY" id="Na6-SO-cUh"/>
+                                    <constraint firstItem="Imh-GF-98g" firstAttribute="centerX" secondItem="mKC-gN-wgB" secondAttribute="centerX" id="OC0-VT-g1T"/>
+                                    <constraint firstItem="mKC-gN-wgB" firstAttribute="centerX" secondItem="f9s-nf-vjp" secondAttribute="centerX" id="OG1-wk-K9h"/>
+                                    <constraint firstItem="mKC-gN-wgB" firstAttribute="top" secondItem="RSd-g0-3aK" secondAttribute="bottom" constant="10" id="Oea-EG-BMy"/>
+                                    <constraint firstItem="RSd-g0-3aK" firstAttribute="top" secondItem="UFx-rn-Ufu" secondAttribute="bottom" constant="30" id="PjR-zA-hx5"/>
+                                    <constraint firstItem="Imh-GF-98g" firstAttribute="width" secondItem="mKC-gN-wgB" secondAttribute="width" id="RtB-zZ-gI6"/>
+                                    <constraint firstItem="RSd-g0-3aK" firstAttribute="centerX" secondItem="f9s-nf-vjp" secondAttribute="centerX" id="SWM-a9-J5D"/>
+                                    <constraint firstItem="ien-D5-A2N" firstAttribute="height" secondItem="RSd-g0-3aK" secondAttribute="height" id="SYE-sV-CdU"/>
+                                    <constraint firstItem="fbD-od-D8S" firstAttribute="width" secondItem="f9s-nf-vjp" secondAttribute="width" multiplier="310:375" id="TJP-2t-IO6"/>
+                                    <constraint firstItem="RSd-g0-3aK" firstAttribute="height" secondItem="f9s-nf-vjp" secondAttribute="height" multiplier="48:734" id="U9r-ns-dYw"/>
+                                    <constraint firstItem="odw-hz-F1F" firstAttribute="top" secondItem="mKC-gN-wgB" secondAttribute="bottom" constant="10" id="Ufk-Ov-sH5"/>
+                                    <constraint firstItem="vVf-hL-FCO" firstAttribute="width" secondItem="odw-hz-F1F" secondAttribute="width" id="WOK-GI-IX2"/>
+                                    <constraint firstItem="Imh-GF-98g" firstAttribute="centerY" secondItem="mKC-gN-wgB" secondAttribute="centerY" id="aSB-fv-suE"/>
+                                    <constraint firstItem="odw-hz-F1F" firstAttribute="centerX" secondItem="f9s-nf-vjp" secondAttribute="centerX" id="b4b-pk-KOn"/>
+                                    <constraint firstItem="ien-D5-A2N" firstAttribute="centerX" secondItem="RSd-g0-3aK" secondAttribute="centerX" id="bHw-DY-yYu"/>
+                                    <constraint firstItem="RSd-g0-3aK" firstAttribute="width" secondItem="f9s-nf-vjp" secondAttribute="width" multiplier="310:375" id="gOS-co-FHc"/>
+                                    <constraint firstItem="UFx-rn-Ufu" firstAttribute="top" secondItem="f9s-nf-vjp" secondAttribute="top" id="hmk-4y-G4X"/>
+                                    <constraint firstItem="QEd-xY-ZNZ" firstAttribute="width" secondItem="fbD-od-D8S" secondAttribute="width" id="k8k-V4-G7x"/>
+                                    <constraint firstItem="ien-D5-A2N" firstAttribute="centerY" secondItem="RSd-g0-3aK" secondAttribute="centerY" id="l52-xE-ozG"/>
+                                    <constraint firstItem="mKC-gN-wgB" firstAttribute="height" secondItem="f9s-nf-vjp" secondAttribute="height" multiplier="48:734" id="puJ-51-k2p"/>
+                                    <constraint firstItem="UFx-rn-Ufu" firstAttribute="height" secondItem="f9s-nf-vjp" secondAttribute="height" multiplier="415:734" id="r66-P8-7V2"/>
+                                    <constraint firstItem="fbD-od-D8S" firstAttribute="top" secondItem="odw-hz-F1F" secondAttribute="bottom" constant="10" id="uyY-zG-kVm"/>
+                                    <constraint firstItem="fbD-od-D8S" firstAttribute="height" secondItem="f9s-nf-vjp" secondAttribute="height" multiplier="48:734" id="vnE-ca-aP4"/>
+                                    <constraint firstItem="Imh-GF-98g" firstAttribute="height" secondItem="mKC-gN-wgB" secondAttribute="height" id="zrI-Ss-Bsh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u8P-gj-aQh" firstAttribute="bottom" secondItem="f9s-nf-vjp" secondAttribute="bottom" id="EMB-fz-nri"/>
+                            <constraint firstItem="f9s-nf-vjp" firstAttribute="leading" secondItem="u8P-gj-aQh" secondAttribute="leading" id="FmS-Jn-JN4"/>
+                            <constraint firstItem="u8P-gj-aQh" firstAttribute="trailing" secondItem="f9s-nf-vjp" secondAttribute="trailing" id="L4D-mC-hPA"/>
+                            <constraint firstItem="f9s-nf-vjp" firstAttribute="top" secondItem="u8P-gj-aQh" secondAttribute="top" id="MAp-Tn-HXU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="u8P-gj-aQh"/>
+                    </view>
+                    <connections>
+                        <outlet property="optionA" destination="ien-D5-A2N" id="cwx-Ap-5RN"/>
+                        <outlet property="optionB" destination="Imh-GF-98g" id="YtG-ff-ea5"/>
+                        <outlet property="optionC" destination="vVf-hL-FCO" id="FRM-eE-3Hq"/>
+                        <outlet property="optionD" destination="QEd-xY-ZNZ" id="NLH-zz-3Zf"/>
+                        <outlet property="topBarForQuiz2" destination="UFx-rn-Ufu" id="CQF-SM-gU0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kY-x9-TT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2016" y="3571"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background_btn" width="312" height="50"/>

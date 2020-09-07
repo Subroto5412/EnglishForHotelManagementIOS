@@ -23,8 +23,6 @@ class EFHMTopBarForQuiz2: EFHMXibView {
     
     weak var delegate : EFHMTopBarDelegate?
     
-   // @IBOutlet weak var CircularProgrss: EFHMCircularProgressView!
-    
     @IBOutlet weak var progressView1: UIView!
     @IBOutlet weak var progressView2: UIView!
     @IBOutlet weak var progressView3: UIView!

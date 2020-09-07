@@ -16,7 +16,7 @@ class EFHMLevel01ViewController: UIViewController {
     @IBOutlet weak var optionC: UIButton!
     @IBOutlet weak var optionD: UIButton!
     
-    var allQuestions = EFHMQuizDataManager.shared.getAllQuizLabel01()
+    var allQuestions = EFHMQuizDataManager.shared.getAllQuizLevel01()
     var questionNumber: Int = 0
     var score: Int = 0
     var total_Score: Double = 0.0
@@ -168,7 +168,7 @@ class EFHMLevel01ViewController: UIViewController {
                         
         }else {
             let alert = UIAlertController(title: "Awesome", message: "End of Quiz. Do you want to start over?", preferredStyle: .alert)
-            let restartAction = UIAlertAction(title: "Restart", style: .default, handler: nil)
+            let restartAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
             alert.addAction(restartAction)
             present(alert, animated: true, completion: nil)
             optionA.isEnabled = false

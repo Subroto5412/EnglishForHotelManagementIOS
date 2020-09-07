@@ -76,6 +76,9 @@
 		59FCB32825061420000659EA /* EFHMLevel01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB32725061420000659EA /* EFHMLevel01ViewController.swift */; };
 		59FCB32C250614D5000659EA /* EFHMQuizDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB32A250614D5000659EA /* EFHMQuizDataManager.swift */; };
 		59FCB32D250614D5000659EA /* EFHMQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB32B250614D5000659EA /* EFHMQuizModel.swift */; };
+		59FCB33025064C89000659EA /* EFHMQuizModelForImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB32E25064C89000659EA /* EFHMQuizModelForImage.swift */; };
+		59FCB33125064C89000659EA /* EFHMQuizDataManagerForImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB32F25064C89000659EA /* EFHMQuizDataManagerForImage.swift */; };
+		59FCB33425064DB1000659EA /* EFHMLevel02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCB33325064DB1000659EA /* EFHMLevel02ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,6 +153,9 @@
 		59FCB32725061420000659EA /* EFHMLevel01ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMLevel01ViewController.swift; sourceTree = "<group>"; };
 		59FCB32A250614D5000659EA /* EFHMQuizDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMQuizDataManager.swift; sourceTree = "<group>"; };
 		59FCB32B250614D5000659EA /* EFHMQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMQuizModel.swift; sourceTree = "<group>"; };
+		59FCB32E25064C89000659EA /* EFHMQuizModelForImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMQuizModelForImage.swift; sourceTree = "<group>"; };
+		59FCB32F25064C89000659EA /* EFHMQuizDataManagerForImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMQuizDataManagerForImage.swift; sourceTree = "<group>"; };
+		59FCB33325064DB1000659EA /* EFHMLevel02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMLevel02ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				59FCB329250614B5000659EA /* Model */,
+				59FCB33225064D4F000659EA /* Level02 */,
 				59FCB326250613ED000659EA /* Level01 */,
 				5917BF7025055BB1004E550D /* EFHMCircularProgressView.swift */,
 				5917BF6F25055BB1004E550D /* EFHMQuizBody.swift */,
@@ -450,10 +457,20 @@
 		59FCB329250614B5000659EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				59FCB32F25064C89000659EA /* EFHMQuizDataManagerForImage.swift */,
+				59FCB32E25064C89000659EA /* EFHMQuizModelForImage.swift */,
 				59FCB32A250614D5000659EA /* EFHMQuizDataManager.swift */,
 				59FCB32B250614D5000659EA /* EFHMQuizModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		59FCB33225064D4F000659EA /* Level02 */ = {
+			isa = PBXGroup;
+			children = (
+				59FCB33325064DB1000659EA /* EFHMLevel02ViewController.swift */,
+			);
+			path = Level02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,6 +565,8 @@
 				59279ED424E4972D00BB70EA /* EFHMIndexPageController.swift in Sources */,
 				590075842504130300A3A914 /* EFHMSentenceGeetingsControllerCell.swift in Sources */,
 				59FCB32D250614D5000659EA /* EFHMQuizModel.swift in Sources */,
+				59FCB33425064DB1000659EA /* EFHMLevel02ViewController.swift in Sources */,
+				59FCB33025064C89000659EA /* EFHMQuizModelForImage.swift in Sources */,
 				59279ED024E4969700BB70EA /* EFHMPageViewController.swift in Sources */,
 				59AB56CC2504C3B500A15FAC /* EFHMConversationReceptionController.swift in Sources */,
 				5946774B2503F5870098C740 /* EFHMVocabularyKitchenController.swift in Sources */,
@@ -557,6 +576,7 @@
 				5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */,
 				5946773A2503C11B0098C740 /* EFHMVocabularyDataManager.swift in Sources */,
 				5900759825041DB900A3A914 /* EFHMSentenceFoodsControllerCell.swift in Sources */,
+				59FCB33125064C89000659EA /* EFHMQuizDataManagerForImage.swift in Sources */,
 				5917BF7325055BB1004E550D /* EFHMQuizBody.swift in Sources */,
 				5946774C2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift in Sources */,
 				594677472503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift in Sources */,

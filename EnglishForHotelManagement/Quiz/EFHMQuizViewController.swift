@@ -80,8 +80,8 @@ class EFHMQuizViewController: UIViewController {
     }
     
     func showLabel02Controller() {
-//          let controller = EFCLabel02ViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+          let controller = EFHMLevel02ViewController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
     
     func showLabel03Controller() {
