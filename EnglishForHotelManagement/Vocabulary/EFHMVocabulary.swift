@@ -1,6 +1,6 @@
 //
 //  EFHMVocabulary.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 21/5/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
@@ -15,7 +15,6 @@ class EFHMVocabulary: EFHMXibView {
     var serviceHandler : ((Bool?) -> Void)?
     var kitchenHandler : ((Bool?) -> Void)?
     var foodsHandler : ((Bool?) -> Void)?
-    var interviewHandler : ((Bool?) -> Void)?
  
     @IBAction func btnGeetings(_ sender: UIButton) {
         self.geetingsHandler?(true)
@@ -35,9 +34,5 @@ class EFHMVocabulary: EFHMXibView {
     
     @IBAction func btnFoods(_ sender: Any) {
          self.foodsHandler?(true)
-    }
-    
-    @IBAction func btnInterview(_ sender: UIButton) {
-        self.interviewHandler?(true)
     }
 }

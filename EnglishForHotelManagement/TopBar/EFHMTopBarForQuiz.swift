@@ -1,6 +1,6 @@
 //
 //  EFCTopBarForQuiz.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 7/7/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
@@ -12,7 +12,6 @@ class EFHMTopBarForQuiz: EFHMXibView {
     
     weak var delegate : EFHMTopBarDelegate?
 
-   // @IBOutlet weak var CircularProgress: EFHMCircularProgressView!
     @IBOutlet weak var percentLbl: UILabel!
     @IBOutlet weak var questionLbl: UILabel!
     

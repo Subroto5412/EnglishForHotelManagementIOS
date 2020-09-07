@@ -1,6 +1,6 @@
 //
 //  EFCCircularProgressView.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 7/7/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
@@ -12,14 +12,6 @@ class EFHMCircularProgressView: UIView {
 
     fileprivate var progressLayer = CAShapeLayer()
     fileprivate var trackLayer = CAShapeLayer()
-    
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
     
     override init(frame: CGRect) {
         super.init(frame: frame)

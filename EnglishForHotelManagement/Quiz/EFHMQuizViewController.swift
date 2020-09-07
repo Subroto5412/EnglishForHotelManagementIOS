@@ -1,6 +1,6 @@
 //
 //  EFCQuizViewController.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 6/7/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
@@ -34,7 +34,7 @@ class EFHMQuizViewController: UIViewController {
                            weakSelf.showQuizRulesController()
                        }
         
-        self.bodyContainer.LabelHandler1 = {
+        self.bodyContainer.LevelHandler1 = {
                 [weak self] (isShow) in
                 guard let weakSelf = self else {
                 return
@@ -42,14 +42,14 @@ class EFHMQuizViewController: UIViewController {
             weakSelf.showLabel01Controller()
         }
         
-        self.bodyContainer.LabelHandler2 = {
+        self.bodyContainer.LevelHandler2 = {
                 [weak self] (isShow) in
                 guard let weakSelf = self else {
                 return
                }
             weakSelf.showLabel02Controller()
         }
-        self.bodyContainer.LabelHandler3 = {
+        self.bodyContainer.LevelHandler3 = {
                        [weak self] (isShow) in
                        guard let weakSelf = self else {
                        return
@@ -70,13 +70,13 @@ class EFHMQuizViewController: UIViewController {
        }
     
     func showQuizRulesController() {
-//          let controller = EFCQuizRulesViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+     //   let controller = EFHMQuizRulesViewController.initWithStoryboard()
+      //  self.present(controller, animated: true, completion: nil);
     }
     
     func showLabel01Controller() {
-//          let controller = EFCLabel01ViewController.initWithStoryboard()
-//          self.present(controller, animated: true, completion: nil);
+          let controller = EFHMLevel01ViewController.initWithStoryboard()
+          self.present(controller, animated: true, completion: nil);
     }
     
     func showLabel02Controller() {

@@ -1,6 +1,6 @@
 //
 //  EFHMWorkViewController.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 28/5/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.

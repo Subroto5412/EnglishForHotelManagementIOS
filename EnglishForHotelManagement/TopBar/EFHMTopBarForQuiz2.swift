@@ -1,6 +1,6 @@
 //
 //  EFCTopBarForQuiz2.swift
-//  EnglishForConstruction
+//  EnglishForHotelManagement
 //
 //  Created by Subroto Mohonto on 8/7/20.
 //  Copyright © 2020 Subroto Mohonto. All rights reserved.
