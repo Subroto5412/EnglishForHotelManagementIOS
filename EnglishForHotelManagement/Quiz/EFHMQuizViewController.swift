@@ -75,18 +75,18 @@ class EFHMQuizViewController: UIViewController {
     }
     
     func showLabel01Controller() {
-          let controller = EFHMLevel01ViewController.initWithStoryboard()
-          self.present(controller, animated: true, completion: nil);
+        let controller = EFHMLevel01ViewController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
     }
     
     func showLabel02Controller() {
-          let controller = EFHMLevel02ViewController.initWithStoryboard()
-          self.present(controller, animated: true, completion: nil);
+        let controller = EFHMLevel02ViewController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
     }
     
     func showLabel03Controller() {
-//             let controller = EFCLabel03ViewController.initWithStoryboard()
-//             self.present(controller, animated: true, completion: nil);
+         let controller = EFHMLevel03ViewController.initWithStoryboard()
+         self.present(controller, animated: true, completion: nil);
        }
     
     func showLabel04Controller() {
