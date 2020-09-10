@@ -89,14 +89,9 @@ class EFHMQuizViewController: UIViewController {
          self.present(controller, animated: true, completion: nil);
        }
     
-    func showLabel04Controller() {
-//                let controller = EFCLabel04ViewController.initWithStoryboard()
-//                self.present(controller, animated: true, completion: nil);
-    }
-    
     func showResultController() {
-//                let controller = EFCResultViewController.initWithStoryboard()
-//                self.present(controller, animated: true, completion: nil);
+        let controller = EFHMResultController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
     }
     
 }

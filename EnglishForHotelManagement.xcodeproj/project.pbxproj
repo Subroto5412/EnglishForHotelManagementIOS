@@ -17,6 +17,7 @@
 		5900759625041DAA00A3A914 /* EFHMSentenceFoodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900759525041DAA00A3A914 /* EFHMSentenceFoodsController.swift */; };
 		5900759825041DB900A3A914 /* EFHMSentenceFoodsControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900759725041DB900A3A914 /* EFHMSentenceFoodsControllerCell.swift */; };
 		5906B126250775BB005FB111 /* EFHMLevel03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5906B125250775BB005FB111 /* EFHMLevel03ViewController.swift */; };
+		5906B1282507A999005FB111 /* EFHMResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5906B1272507A999005FB111 /* EFHMResultController.swift */; };
 		5916AD8F25040FC0002B3009 /* EFHMSentenceGeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */; };
 		5917BF7325055BB1004E550D /* EFHMQuizBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5917BF6F25055BB1004E550D /* EFHMQuizBody.swift */; };
 		5917BF7425055BB1004E550D /* EFHMCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5917BF7025055BB1004E550D /* EFHMCircularProgressView.swift */; };
@@ -93,6 +94,7 @@
 		5900759525041DAA00A3A914 /* EFHMSentenceFoodsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceFoodsController.swift; sourceTree = "<group>"; };
 		5900759725041DB900A3A914 /* EFHMSentenceFoodsControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceFoodsControllerCell.swift; sourceTree = "<group>"; };
 		5906B125250775BB005FB111 /* EFHMLevel03ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMLevel03ViewController.swift; sourceTree = "<group>"; };
+		5906B1272507A999005FB111 /* EFHMResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMResultController.swift; sourceTree = "<group>"; };
 		5916AD8E25040FC0002B3009 /* EFHMSentenceGeetingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFHMSentenceGeetingsController.swift; sourceTree = "<group>"; };
 		5917BF6F25055BB1004E550D /* EFHMQuizBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMQuizBody.swift; sourceTree = "<group>"; };
 		5917BF7025055BB1004E550D /* EFHMCircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFHMCircularProgressView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				5917BF6F25055BB1004E550D /* EFHMQuizBody.swift */,
 				5917BF7125055BB1004E550D /* EFHMQuizBody.xib */,
 				5917BF7225055BB1004E550D /* EFHMQuizViewController.swift */,
+				5906B1272507A999005FB111 /* EFHMResultController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -590,6 +593,7 @@
 				5906B126250775BB005FB111 /* EFHMLevel03ViewController.swift in Sources */,
 				59FCB33125064C89000659EA /* EFHMQuizDataManagerForImage.swift in Sources */,
 				5917BF7325055BB1004E550D /* EFHMQuizBody.swift in Sources */,
+				5906B1282507A999005FB111 /* EFHMResultController.swift in Sources */,
 				5946774C2503F5870098C740 /* EFHMVocabularyKitchenControllerCell.swift in Sources */,
 				594677472503F0840098C740 /* EFHMVocabularyServicesControllerCell.swift in Sources */,
 				5917BF7425055BB1004E550D /* EFHMCircularProgressView.swift in Sources */,

@@ -61,8 +61,8 @@ class EFHMHomeViewController: UIViewController {
     
     @IBAction func progressBtn(_ sender: UIButton) {
         
-//        let controller = EFHMResultViewController.initWithStoryboard()
-//        self.present(controller, animated: true, completion: nil);
+        let controller = EFHMResultController.initWithStoryboard()
+        self.present(controller, animated: true, completion: nil);
     }
     
 
