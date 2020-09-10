@@ -7,7 +7,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMVocabulary" customModule="EnglishForHotelManagement" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMVocabulary" customModule="EnglishForHotelManagement" customModuleProvider="target">
+            <connections>
+                <outlet property="foodsView" destination="ZHH-WJ-DMc" id="Khk-5q-B11"/>
+                <outlet property="geetingsView" destination="TsP-ax-6MH" id="dt8-BA-jJx"/>
+                <outlet property="kitchenView" destination="vck-e7-dKi" id="EXH-Hh-PQw"/>
+                <outlet property="receptionView" destination="1Ms-wG-8r4" id="ogC-k5-3hH"/>
+                <outlet property="serviceView" destination="zL6-mB-GDY" id="ene-RX-1RN"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="374" height="567"/>

@@ -16,6 +16,12 @@ class EFHMQuizBody: EFHMXibView {
     var LevelHandler3 : ((Bool?) -> Void)?
     var LevelHandler4 : ((Bool?) -> Void)?
     var ResultHandler : ((Bool?) -> Void)?
+    
+    @IBOutlet weak var aboutView: UIView!
+    @IBOutlet weak var level01View: UIView!
+    @IBOutlet weak var level02View: UIView!
+    @IBOutlet weak var level03View: UIView!
+    @IBOutlet weak var resultView: UIView!
 
     @IBAction func quizRulesBtn(_ sender: Any) {
         self.quizRulesHandler?(true)

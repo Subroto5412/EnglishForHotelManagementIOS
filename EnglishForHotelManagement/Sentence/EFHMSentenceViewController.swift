@@ -23,6 +23,13 @@ class EFHMSentenceViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             topBar.titleNameLbl.text = "Sentence"
+            self.bodyContainer.geetingsView.layer.cornerRadius = 20
+            self.bodyContainer.receptionView.layer.cornerRadius = 20
+            self.bodyContainer.serviceView.layer.cornerRadius = 20
+            self.bodyContainer.kitchenView.layer.cornerRadius = 20
+            self.bodyContainer.foodsView.layer.cornerRadius = 20
+            self.bodyContainer.interviewView.layer.cornerRadius = 20
+            
             self.initializeTopBar()
             
             self.bodyContainer.geetingsHandler = {

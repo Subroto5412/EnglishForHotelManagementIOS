@@ -10,12 +10,18 @@ import UIKit
 
 class EFHMConversation: EFHMXibView {
 
-       var geetingsHandler : ((Bool?) -> Void)?
-       var receptionHandler : ((Bool?) -> Void)?
-       var serviceHandler : ((Bool?) -> Void)?
-       var kitchenHandler : ((Bool?) -> Void)?
-       var foodsHandler : ((Bool?) -> Void)?
-       var interviewHandler : ((Bool?) -> Void)?
+    var geetingsHandler : ((Bool?) -> Void)?
+    var receptionHandler : ((Bool?) -> Void)?
+    var serviceHandler : ((Bool?) -> Void)?
+    var kitchenHandler : ((Bool?) -> Void)?
+    var foodsHandler : ((Bool?) -> Void)?
+    var interviewHandler : ((Bool?) -> Void)?
+    @IBOutlet weak var geetingsView: UIView!
+    @IBOutlet weak var receptionView: UIView!
+    @IBOutlet weak var serviceView: UIView!
+    @IBOutlet weak var kitchenView: UIView!
+    @IBOutlet weak var foodsView: UIView!
+    @IBOutlet weak var interviewView: UIView!
     
        
        @IBAction func btnGeetings(_ sender: UIButton) {

@@ -24,6 +24,13 @@ class EFHMQuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.topBar.titleNameLbl.text = "Quiz"
+        
+        self.bodyContainer.aboutView.layer.cornerRadius = 20
+        self.bodyContainer.level01View.layer.cornerRadius = 20
+        self.bodyContainer.level02View.layer.cornerRadius = 20
+        self.bodyContainer.level03View.layer.cornerRadius = 20
+        self.bodyContainer.resultView.layer.cornerRadius = 20
+        
         self.initializeTopBar()
       
         self.bodyContainer.quizRulesHandler = {

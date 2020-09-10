@@ -15,7 +15,14 @@ class EFHMVocabulary: EFHMXibView {
     var serviceHandler : ((Bool?) -> Void)?
     var kitchenHandler : ((Bool?) -> Void)?
     var foodsHandler : ((Bool?) -> Void)?
- 
+    
+    @IBOutlet weak var geetingsView: UIView!
+    @IBOutlet weak var receptionView: UIView!
+    @IBOutlet weak var serviceView: UIView!
+    @IBOutlet weak var kitchenView: UIView!
+    @IBOutlet weak var foodsView: UIView!
+    
+    
     @IBAction func btnGeetings(_ sender: UIButton) {
         self.geetingsHandler?(true)
     }

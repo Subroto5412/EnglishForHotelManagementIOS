@@ -49,25 +49,25 @@ class EFHMLevel03ViewController: UIViewController {
         score += 1
         progress += 1
         if progress == 1 {
-            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.green
+            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.blue
         }else if progress == 2 {
-            self.topBarForQuiz.progressView2.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView2.backgroundColor = UIColor.blue
         }else if progress == 3 {
-            self.topBarForQuiz.progressView3.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView3.backgroundColor = UIColor.blue
         }else if progress == 4 {
-            self.topBarForQuiz.progressView4.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView4.backgroundColor = UIColor.blue
         }else if progress == 5 {
-            self.topBarForQuiz.progressView5.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView5.backgroundColor = UIColor.blue
         }else if progress == 6 {
-            self.topBarForQuiz.progressView6.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView6.backgroundColor = UIColor.blue
         }else if progress == 7 {
-            self.topBarForQuiz.progressView7.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView7.backgroundColor = UIColor.blue
         }else if progress == 8 {
-            self.topBarForQuiz.progressView8.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView8.backgroundColor = UIColor.blue
         }else if progress == 9 {
-            self.topBarForQuiz.progressView9.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView9.backgroundColor = UIColor.blue
         }else if progress == 10 {
-            self.topBarForQuiz.progressView10.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView10.backgroundColor = UIColor.blue
         }
                
         questionNumber += 1
@@ -78,25 +78,25 @@ class EFHMLevel03ViewController: UIViewController {
         score += 1
         progress += 1
         if progress == 1 {
-            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.green
+            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.blue
         }else if progress == 2 {
-            self.topBarForQuiz.progressView2.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView2.backgroundColor = UIColor.blue
         }else if progress == 3 {
-            self.topBarForQuiz.progressView3.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView3.backgroundColor = UIColor.blue
         }else if progress == 4 {
-            self.topBarForQuiz.progressView4.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView4.backgroundColor = UIColor.blue
         }else if progress == 5 {
-            self.topBarForQuiz.progressView5.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView5.backgroundColor = UIColor.blue
         }else if progress == 6 {
-            self.topBarForQuiz.progressView6.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView6.backgroundColor = UIColor.blue
         }else if progress == 7 {
-            self.topBarForQuiz.progressView7.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView7.backgroundColor = UIColor.blue
         }else if progress == 8 {
-            self.topBarForQuiz.progressView8.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView8.backgroundColor = UIColor.blue
         }else if progress == 9 {
-            self.topBarForQuiz.progressView9.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView9.backgroundColor = UIColor.blue
         }else if progress == 10 {
-            self.topBarForQuiz.progressView10.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView10.backgroundColor = UIColor.blue
         }
         questionNumber += 1
         updateQuestion()
@@ -106,25 +106,25 @@ class EFHMLevel03ViewController: UIViewController {
         score += 1
         progress += 1
         if progress == 1 {
-            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.green
+            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.blue
         }else if progress == 2 {
-            self.topBarForQuiz.progressView2.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView2.backgroundColor = UIColor.blue
         }else if progress == 3 {
-            self.topBarForQuiz.progressView3.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView3.backgroundColor = UIColor.blue
         }else if progress == 4 {
-            self.topBarForQuiz.progressView4.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView4.backgroundColor = UIColor.blue
         }else if progress == 5 {
-            self.topBarForQuiz.progressView5.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView5.backgroundColor = UIColor.blue
         }else if progress == 6 {
-            self.topBarForQuiz.progressView6.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView6.backgroundColor = UIColor.blue
         }else if progress == 7 {
-            self.topBarForQuiz.progressView7.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView7.backgroundColor = UIColor.blue
         }else if progress == 8 {
-            self.topBarForQuiz.progressView8.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView8.backgroundColor = UIColor.blue
         }else if progress == 9 {
-            self.topBarForQuiz.progressView9.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView9.backgroundColor = UIColor.blue
         }else if progress == 10 {
-            self.topBarForQuiz.progressView10.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView10.backgroundColor = UIColor.blue
         }
                    
         questionNumber += 1
@@ -135,25 +135,25 @@ class EFHMLevel03ViewController: UIViewController {
         score += 1
         progress += 1
         if progress == 1 {
-            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.green
+            self.topBarForQuiz.ProgressView1.backgroundColor = UIColor.blue
         }else if progress == 2 {
-            self.topBarForQuiz.progressView2.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView2.backgroundColor = UIColor.blue
         }else if progress == 3 {
-            self.topBarForQuiz.progressView3.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView3.backgroundColor = UIColor.blue
         }else if progress == 4 {
-            self.topBarForQuiz.progressView4.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView4.backgroundColor = UIColor.blue
         }else if progress == 5 {
-            self.topBarForQuiz.progressView5.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView5.backgroundColor = UIColor.blue
         }else if progress == 6 {
-            self.topBarForQuiz.progressView6.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView6.backgroundColor = UIColor.blue
         }else if progress == 7 {
-            self.topBarForQuiz.progressView7.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView7.backgroundColor = UIColor.blue
         }else if progress == 8 {
-            self.topBarForQuiz.progressView8.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView8.backgroundColor = UIColor.blue
         }else if progress == 9 {
-            self.topBarForQuiz.progressView9.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView9.backgroundColor = UIColor.blue
         }else if progress == 10 {
-            self.topBarForQuiz.progressView10.backgroundColor = UIColor.green
+            self.topBarForQuiz.progressView10.backgroundColor = UIColor.blue
         }
         questionNumber += 1
         updateQuestion()

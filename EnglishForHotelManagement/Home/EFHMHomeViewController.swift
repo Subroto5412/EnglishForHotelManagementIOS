@@ -21,7 +21,7 @@ class EFHMHomeViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.bodyContainer.quizView.layer.cornerRadius = 20
         self.bodyContainer.vocabularyHandler = {
                   [weak self] (isShow) in
                                guard let weakSelf = self else {

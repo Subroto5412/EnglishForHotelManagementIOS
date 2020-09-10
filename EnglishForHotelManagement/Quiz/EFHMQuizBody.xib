@@ -7,7 +7,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMQuizBody" customModule="EnglishForHotelManagement" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMQuizBody" customModule="EnglishForHotelManagement" customModuleProvider="target">
+            <connections>
+                <outlet property="aboutView" destination="uEa-Q3-Kbc" id="MQW-sW-chu"/>
+                <outlet property="level01View" destination="zmQ-In-XSN" id="3fA-Jm-aOo"/>
+                <outlet property="level02View" destination="dhO-mz-kJc" id="WPl-6F-anf"/>
+                <outlet property="level03View" destination="2bj-Tl-avn" id="Iyq-Io-Kqc"/>
+                <outlet property="resultView" destination="nDp-9k-wMp" id="jmg-ar-Eha"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="588"/>

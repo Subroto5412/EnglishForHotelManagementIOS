@@ -7,7 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMSentence" customModule="EnglishForHotelManagement" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EFHMSentence" customModule="EnglishForHotelManagement" customModuleProvider="target">
+            <connections>
+                <outlet property="foodsView" destination="mGZ-es-qgs" id="V0o-4B-Z65"/>
+                <outlet property="geetingsView" destination="8ka-EW-8t8" id="e7N-oK-KGY"/>
+                <outlet property="interviewView" destination="WT2-Qu-wGF" id="PIB-n4-cRU"/>
+                <outlet property="kitchenView" destination="pNU-xd-Gme" id="cFC-pz-1Fj"/>
+                <outlet property="receptionView" destination="mqt-Pa-Aj5" id="Kqw-O7-MGT"/>
+                <outlet property="serviceView" destination="Wqt-wq-E9y" id="ol4-5m-hyj"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="588"/>

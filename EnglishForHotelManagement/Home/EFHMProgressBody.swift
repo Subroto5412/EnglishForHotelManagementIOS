@@ -10,6 +10,7 @@ import UIKit
 
 class EFHMProgressBody: EFHMXibView {
 
+    @IBOutlet weak var quizView: UIButton!
     var vocabularyHandler : ((Bool?) -> Void)?
     var sentenceHandler : ((Bool?) -> Void)?
     var conversationHandler : ((Bool?) -> Void)?
